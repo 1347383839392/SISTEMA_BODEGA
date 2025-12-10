@@ -1,0 +1,1144 @@
+[09-Nov-2025 12:57:16 America/Guatemala] Error en inventory_stats.php: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_empresarial.inventory_movements' doesn't exist
+[09-Nov-2025 12:57:20 America/Guatemala] Error en inventory_stats.php: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_empresarial.inventory_movements' doesn't exist
+[09-Nov-2025 13:02:27 America/Guatemala] Error en inventory.php: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_empresarial.inventory_movements' doesn't exist
+[09-Nov-2025 13:02:44 America/Guatemala] Error en inventory.php: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_empresarial.inventory_movements' doesn't exist
+[09-Nov-2025 15:26:46 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:26:46 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:27:07 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:27:07 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:27:16 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:27:16 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:27:23 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:27:23 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:46:38 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:46:38 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:46:55 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:46:55 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:51:22 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:51:22 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:53:54 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 15:53:54 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 16:05:47 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 16:05:47 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 16:06:33 America/Guatemala] Error [2]: Undefined variable $invoice in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[09-Nov-2025 16:06:33 America/Guatemala] Error [2]: Trying to access array offset on value of type null in C:\xampp\htdocs\gestion-empresarial\views\invoices.php:79
+[16-Nov-2025 10:49:04 America/Guatemala] Error contando productos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[16-Nov-2025 10:49:04 America/Guatemala] Error contando clientes: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[16-Nov-2025 10:49:04 America/Guatemala] Error contando cotizaciones: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[16-Nov-2025 10:49:04 America/Guatemala] Error contando stock bajo: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[16-Nov-2025 10:49:04 America/Guatemala] Error contando combos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[16-Nov-2025 10:49:04 America/Guatemala] Error contando facturas: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[16-Nov-2025 10:49:08 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[16-Nov-2025 10:49:08 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[16-Nov-2025 10:49:13 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[16-Nov-2025 10:49:13 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[17-Nov-2025 18:08:32 America/Guatemala] POST combos.php - Input recibido: {"id":null,"name":"Combo B\u00e1sico 6 C\u00e1maras","camera_count":6,"price":1050,"products":[{"product_id":6,"quantity":3},{"product_id":3,"quantity":3}]}
+[21-Nov-2025 18:25:32 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[21-Nov-2025 18:46:47 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[21-Nov-2025 18:57:50 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[21-Nov-2025 19:13:47 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[21-Nov-2025 19:39:13 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[21-Nov-2025 19:50:23 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[21-Nov-2025 19:54:16 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[21-Nov-2025 19:54:32 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[21-Nov-2025 19:57:43 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[23-Nov-2025 15:49:25 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[23-Nov-2025 15:49:25 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[23-Nov-2025 15:49:29 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[23-Nov-2025 15:49:29 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[23-Nov-2025 15:49:43 America/Guatemala] Error contando clientes: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[23-Nov-2025 15:49:43 America/Guatemala] Error contando cotizaciones: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[23-Nov-2025 15:49:43 America/Guatemala] Error contando stock bajo: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[23-Nov-2025 15:49:43 America/Guatemala] Error contando combos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[23-Nov-2025 15:49:43 America/Guatemala] Error contando facturas: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[23-Nov-2025 15:49:52 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[23-Nov-2025 15:49:52 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[23-Nov-2025 15:50:02 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[23-Nov-2025 15:50:02 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[23-Nov-2025 16:16:41 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[23-Nov-2025 16:26:00 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[23-Nov-2025 16:26:00 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[23-Nov-2025 16:26:39 America/Guatemala] Error en invoices.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gestion_empresarial`.`invoices`, CONSTRAINT `invoices_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`))
+[23-Nov-2025 16:41:24 America/Guatemala] POST combos.php - Input recibido: {"id":null,"name":"Combo Est\u00e1ndar 8 C\u00e1maras","camera_count":8,"price":480,"products":[{"product_id":9,"quantity":2},{"product_id":2,"quantity":3}]}
+[23-Nov-2025 17:03:51 America/Guatemala] === FACTURANDO COMBO ===
+[23-Nov-2025 17:03:51 America/Guatemala] Quote ID: 2
+[23-Nov-2025 17:03:51 America/Guatemala] Is Combo: true
+[23-Nov-2025 17:03:51 America/Guatemala] Items: [{"id":4,"combo_quote_id":2,"product_id":9,"description":"C\u00e1mara pro plus Max","quantity":2,"unit_price":"45.00","total":"90.00","created_at":"2025-11-23 16:41:42"},{"id":5,"combo_quote_id":2,"product_id":2,"description":"C\u00e1mara IP 4MP Exterior","quantity":3,"unit_price":"130.00","total":"390.00","created_at":"2025-11-23 16:41:42"}]
+[23-Nov-2025 17:03:51 America/Guatemala] Item product_id: 9
+[23-Nov-2025 17:03:51 America/Guatemala] Item product_id: 2
+[23-Nov-2025 17:05:04 America/Guatemala] === FACTURANDO COMBO ===
+[23-Nov-2025 17:05:04 America/Guatemala] Quote ID: 1
+[23-Nov-2025 17:05:04 America/Guatemala] Is Combo: true
+[23-Nov-2025 17:05:04 America/Guatemala] Items: [{"id":1,"combo_quote_id":1,"product_id":6,"description":"Cable UTP Cat6 305m","quantity":2,"unit_price":"60.00","total":"120.00","created_at":"2025-11-21 09:54:19"},{"id":2,"combo_quote_id":1,"product_id":3,"description":"C\u00e1mara Domo PTZ 360\u00b0","quantity":3,"unit_price":"120.00","total":"360.00","created_at":"2025-11-21 09:54:19"},{"id":3,"combo_quote_id":1,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":1,"unit_price":"215.00","total":"215.00","created_at":"2025-11-21 09:54:19"}]
+[23-Nov-2025 17:05:04 America/Guatemala] Item product_id: 6
+[23-Nov-2025 17:05:04 America/Guatemala] Item product_id: 3
+[23-Nov-2025 17:05:04 America/Guatemala] Item product_id: 12
+[23-Nov-2025 17:17:49 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[23-Nov-2025 17:17:49 America/Guatemala] 📦 Input recibido: {"quote_id":1,"is_combo":true}
+[23-Nov-2025 17:17:49 America/Guatemala] 🔍 Quote ID: 1
+[23-Nov-2025 17:17:49 America/Guatemala] 🔍 Is Combo: SI (true)
+[23-Nov-2025 17:17:49 America/Guatemala] 🔍 Is Combo raw: true
+[23-Nov-2025 17:17:49 America/Guatemala] 📋 Obteniendo datos de COMBO_QUOTES
+[23-Nov-2025 17:17:49 America/Guatemala] 📊 Quote obtenida: {"id":1,"number":"COMBO-0001","combo_id":8,"client_id":4,"total":"695.00","status":"pending","created_at":"2025-11-21 09:54:19","updated_at":"2025-11-23 17:05:22","type":"COMBO"}
+[23-Nov-2025 17:17:49 America/Guatemala] 🔄 Transacción iniciada
+[23-Nov-2025 17:17:49 America/Guatemala] 📦 Obteniendo items de COMBO_QUOTE_ITEMS
+[23-Nov-2025 17:17:49 America/Guatemala] === DEBUG ITEMS ===
+[23-Nov-2025 17:17:49 America/Guatemala] Total items obtenidos: 3
+[23-Nov-2025 17:17:49 America/Guatemala] Items completos: [{"id":1,"combo_quote_id":1,"product_id":6,"description":"Cable UTP Cat6 305m","quantity":2,"unit_price":"60.00","total":"120.00","created_at":"2025-11-21 09:54:19"},{"id":2,"combo_quote_id":1,"product_id":3,"description":"C\u00e1mara Domo PTZ 360\u00b0","quantity":3,"unit_price":"120.00","total":"360.00","created_at":"2025-11-21 09:54:19"},{"id":3,"combo_quote_id":1,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":1,"unit_price":"215.00","total":"215.00","created_at":"2025-11-21 09:54:19"}]
+[23-Nov-2025 17:17:49 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[23-Nov-2025 17:17:49 America/Guatemala] Item completo: {"id":1,"combo_quote_id":1,"product_id":6,"description":"Cable UTP Cat6 305m","quantity":2,"unit_price":"60.00","total":"120.00","created_at":"2025-11-21 09:54:19"}
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID existe: SI
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID valor: 6
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID es truthy: SI
+[23-Nov-2025 17:17:49 America/Guatemala] Quantity: 2
+[23-Nov-2025 17:17:49 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[23-Nov-2025 17:17:49 America/Guatemala] 📌 Producto a descontar - ID: 6, Cantidad: 2
+[23-Nov-2025 17:17:49 America/Guatemala] 📦 Producto encontrado: {"stock":7,"name":"Cable UTP Cat6 305m"}
+[23-Nov-2025 17:17:49 America/Guatemala] 📦 Stock actual: 7
+[23-Nov-2025 17:17:49 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 6
+[23-Nov-2025 17:17:49 America/Guatemala] ✅ Stock descontado exitosamente
+[23-Nov-2025 17:17:49 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[23-Nov-2025 17:17:49 America/Guatemala] Item completo: {"id":2,"combo_quote_id":1,"product_id":3,"description":"C\u00e1mara Domo PTZ 360\u00b0","quantity":3,"unit_price":"120.00","total":"360.00","created_at":"2025-11-21 09:54:19"}
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID existe: SI
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID valor: 3
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID es truthy: SI
+[23-Nov-2025 17:17:49 America/Guatemala] Quantity: 3
+[23-Nov-2025 17:17:49 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[23-Nov-2025 17:17:49 America/Guatemala] 📌 Producto a descontar - ID: 3, Cantidad: 3
+[23-Nov-2025 17:17:49 America/Guatemala] 📦 Producto encontrado: {"stock":31,"name":"C\u00e1mara Domo PTZ 360\u00b0"}
+[23-Nov-2025 17:17:49 America/Guatemala] 📦 Stock actual: 31
+[23-Nov-2025 17:17:49 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 3
+[23-Nov-2025 17:17:49 America/Guatemala] ✅ Stock descontado exitosamente
+[23-Nov-2025 17:17:49 America/Guatemala] --- PROCESANDO ITEM #3 ---
+[23-Nov-2025 17:17:49 America/Guatemala] Item completo: {"id":3,"combo_quote_id":1,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":1,"unit_price":"215.00","total":"215.00","created_at":"2025-11-21 09:54:19"}
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID existe: SI
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID valor: 12
+[23-Nov-2025 17:17:49 America/Guatemala] Product ID es truthy: SI
+[23-Nov-2025 17:17:49 America/Guatemala] Quantity: 1
+[23-Nov-2025 17:17:49 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[23-Nov-2025 17:17:49 America/Guatemala] 📌 Producto a descontar - ID: 12, Cantidad: 1
+[23-Nov-2025 17:17:49 America/Guatemala] 📦 Producto encontrado: {"stock":9,"name":"Bocina Speaker Bluetooth"}
+[23-Nov-2025 17:17:49 America/Guatemala] 📦 Stock actual: 9
+[23-Nov-2025 17:17:49 America/Guatemala] 🔻 Descontando 1 unidades del producto ID 12
+[23-Nov-2025 17:17:49 America/Guatemala] ✅ Stock descontado exitosamente
+[23-Nov-2025 17:17:49 America/Guatemala] 💾 Generando número de factura...
+[23-Nov-2025 17:17:49 America/Guatemala] 📄 Número de factura: FAC-0039
+[23-Nov-2025 17:17:49 America/Guatemala] 💰 Total: 695.00
+[23-Nov-2025 17:17:49 America/Guatemala] ✅ Factura creada con ID: 50
+[23-Nov-2025 17:17:49 America/Guatemala] ✅ Transacción COMMIT exitoso
+[23-Nov-2025 17:17:49 America/Guatemala] 🎉 Factura generada exitosamente
+[23-Nov-2025 17:17:49 America/Guatemala] =================================
+[23-Nov-2025 17:29:16 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[23-Nov-2025 17:29:16 America/Guatemala] 📦 Input recibido: {"quote_id":1,"is_combo":true}
+[23-Nov-2025 17:29:16 America/Guatemala] 🔍 Quote ID: 1
+[23-Nov-2025 17:29:16 America/Guatemala] 🔍 Is Combo: SI (true)
+[23-Nov-2025 17:29:16 America/Guatemala] 🔍 Is Combo raw: true
+[23-Nov-2025 17:29:16 America/Guatemala] 📋 Obteniendo datos de COMBO_QUOTES
+[23-Nov-2025 17:29:16 America/Guatemala] 📊 Quote obtenida: {"id":1,"number":"COMBO-0001","combo_id":8,"client_id":4,"total":"695.00","status":"pending","created_at":"2025-11-21 09:54:19","updated_at":"2025-11-23 17:20:34","type":"COMBO"}
+[23-Nov-2025 17:29:16 America/Guatemala] 🔄 Transacción iniciada
+[23-Nov-2025 17:29:16 America/Guatemala] 📦 Obteniendo items de COMBO_QUOTE_ITEMS
+[23-Nov-2025 17:29:16 America/Guatemala] === DEBUG ITEMS ===
+[23-Nov-2025 17:29:16 America/Guatemala] Total items obtenidos: 3
+[23-Nov-2025 17:29:16 America/Guatemala] Items completos: [{"id":1,"combo_quote_id":1,"product_id":6,"description":"Cable UTP Cat6 305m","quantity":2,"unit_price":"60.00","total":"120.00","created_at":"2025-11-21 09:54:19"},{"id":2,"combo_quote_id":1,"product_id":3,"description":"C\u00e1mara Domo PTZ 360\u00b0","quantity":3,"unit_price":"120.00","total":"360.00","created_at":"2025-11-21 09:54:19"},{"id":3,"combo_quote_id":1,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":1,"unit_price":"215.00","total":"215.00","created_at":"2025-11-21 09:54:19"}]
+[23-Nov-2025 17:29:16 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[23-Nov-2025 17:29:16 America/Guatemala] Item completo: {"id":1,"combo_quote_id":1,"product_id":6,"description":"Cable UTP Cat6 305m","quantity":2,"unit_price":"60.00","total":"120.00","created_at":"2025-11-21 09:54:19"}
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID existe: SI
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID valor: 6
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID es truthy: SI
+[23-Nov-2025 17:29:16 America/Guatemala] Quantity: 2
+[23-Nov-2025 17:29:16 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[23-Nov-2025 17:29:16 America/Guatemala] 📌 Producto a descontar - ID: 6, Cantidad: 2
+[23-Nov-2025 17:29:16 America/Guatemala] 📦 Producto encontrado: {"stock":7,"name":"Cable UTP Cat6 305m"}
+[23-Nov-2025 17:29:16 America/Guatemala] 📦 Stock actual: 7
+[23-Nov-2025 17:29:16 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 6
+[23-Nov-2025 17:29:16 America/Guatemala] ✅ Stock descontado exitosamente
+[23-Nov-2025 17:29:16 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[23-Nov-2025 17:29:16 America/Guatemala] Item completo: {"id":2,"combo_quote_id":1,"product_id":3,"description":"C\u00e1mara Domo PTZ 360\u00b0","quantity":3,"unit_price":"120.00","total":"360.00","created_at":"2025-11-21 09:54:19"}
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID existe: SI
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID valor: 3
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID es truthy: SI
+[23-Nov-2025 17:29:16 America/Guatemala] Quantity: 3
+[23-Nov-2025 17:29:16 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[23-Nov-2025 17:29:16 America/Guatemala] 📌 Producto a descontar - ID: 3, Cantidad: 3
+[23-Nov-2025 17:29:16 America/Guatemala] 📦 Producto encontrado: {"stock":31,"name":"C\u00e1mara Domo PTZ 360\u00b0"}
+[23-Nov-2025 17:29:16 America/Guatemala] 📦 Stock actual: 31
+[23-Nov-2025 17:29:16 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 3
+[23-Nov-2025 17:29:16 America/Guatemala] ✅ Stock descontado exitosamente
+[23-Nov-2025 17:29:16 America/Guatemala] --- PROCESANDO ITEM #3 ---
+[23-Nov-2025 17:29:16 America/Guatemala] Item completo: {"id":3,"combo_quote_id":1,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":1,"unit_price":"215.00","total":"215.00","created_at":"2025-11-21 09:54:19"}
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID existe: SI
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID valor: 12
+[23-Nov-2025 17:29:16 America/Guatemala] Product ID es truthy: SI
+[23-Nov-2025 17:29:16 America/Guatemala] Quantity: 1
+[23-Nov-2025 17:29:16 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[23-Nov-2025 17:29:16 America/Guatemala] 📌 Producto a descontar - ID: 12, Cantidad: 1
+[23-Nov-2025 17:29:16 America/Guatemala] 📦 Producto encontrado: {"stock":9,"name":"Bocina Speaker Bluetooth"}
+[23-Nov-2025 17:29:16 America/Guatemala] 📦 Stock actual: 9
+[23-Nov-2025 17:29:16 America/Guatemala] 🔻 Descontando 1 unidades del producto ID 12
+[23-Nov-2025 17:29:16 America/Guatemala] ✅ Stock descontado exitosamente
+[23-Nov-2025 17:29:16 America/Guatemala] 💾 Generando número de factura...
+[23-Nov-2025 17:29:16 America/Guatemala] 📄 Número de factura: FAC-0040
+[23-Nov-2025 17:29:16 America/Guatemala] 💰 Total: 695.00
+[23-Nov-2025 17:29:16 America/Guatemala] ✅ Factura creada con ID: 51
+[23-Nov-2025 17:29:16 America/Guatemala] ✅ Transacción COMMIT exitoso
+[23-Nov-2025 17:29:16 America/Guatemala] 🎉 Factura generada exitosamente
+[23-Nov-2025 17:29:16 America/Guatemala] =================================
+[24-Nov-2025 11:51:15 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[24-Nov-2025 11:51:15 America/Guatemala] 📦 Input recibido: {"quote_id":20,"is_combo":false}
+[24-Nov-2025 11:51:15 America/Guatemala] 🔍 Quote ID: 20
+[24-Nov-2025 11:51:15 America/Guatemala] 🔍 Is Combo: NO (false)
+[24-Nov-2025 11:51:15 America/Guatemala] 🔍 Is Combo raw: false
+[24-Nov-2025 11:51:15 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[24-Nov-2025 11:51:15 America/Guatemala] 📊 Quote obtenida: {"id":20,"number":"MA-0015","type":"MA","client_id":6,"total":"215.00","status":"pending","created_at":"2025-11-21 18:36:00","updated_at":"2025-11-21 19:57:53"}
+[24-Nov-2025 11:51:15 America/Guatemala] 🔄 Transacción iniciada
+[24-Nov-2025 11:51:15 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[24-Nov-2025 11:51:15 America/Guatemala] === DEBUG ITEMS ===
+[24-Nov-2025 11:51:15 America/Guatemala] Total items obtenidos: 2
+[24-Nov-2025 11:51:15 America/Guatemala] Items completos: [{"id":60,"quote_id":20,"product_id":4,"description":"DVR 4 Canales","quantity":1,"unit_price":"200.00","total":"200.00","added_after_invoice":0,"created_at":"2025-11-21 18:36:00"},{"id":61,"quote_id":20,"product_id":7,"description":"Fuente 12V 2A","quantity":1,"unit_price":"15.00","total":"15.00","added_after_invoice":0,"created_at":"2025-11-21 18:36:00"}]
+[24-Nov-2025 11:51:15 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[24-Nov-2025 11:51:15 America/Guatemala] Item completo: {"id":60,"quote_id":20,"product_id":4,"description":"DVR 4 Canales","quantity":1,"unit_price":"200.00","total":"200.00","added_after_invoice":0,"created_at":"2025-11-21 18:36:00"}
+[24-Nov-2025 11:51:15 America/Guatemala] Product ID existe: SI
+[24-Nov-2025 11:51:15 America/Guatemala] Product ID valor: 4
+[24-Nov-2025 11:51:15 America/Guatemala] Product ID es truthy: SI
+[24-Nov-2025 11:51:15 America/Guatemala] Quantity: 1
+[24-Nov-2025 11:51:15 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[24-Nov-2025 11:51:15 America/Guatemala] 📌 Producto a descontar - ID: 4, Cantidad: 1
+[24-Nov-2025 11:51:15 America/Guatemala] 📦 Producto encontrado: {"stock":12,"name":"DVR 4 Canales"}
+[24-Nov-2025 11:51:15 America/Guatemala] 📦 Stock actual: 12
+[24-Nov-2025 11:51:15 America/Guatemala] 🔻 Descontando 1 unidades del producto ID 4
+[24-Nov-2025 11:51:15 America/Guatemala] ✅ Stock descontado exitosamente
+[24-Nov-2025 11:51:15 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[24-Nov-2025 11:51:15 America/Guatemala] Item completo: {"id":61,"quote_id":20,"product_id":7,"description":"Fuente 12V 2A","quantity":1,"unit_price":"15.00","total":"15.00","added_after_invoice":0,"created_at":"2025-11-21 18:36:00"}
+[24-Nov-2025 11:51:15 America/Guatemala] Product ID existe: SI
+[24-Nov-2025 11:51:15 America/Guatemala] Product ID valor: 7
+[24-Nov-2025 11:51:15 America/Guatemala] Product ID es truthy: SI
+[24-Nov-2025 11:51:15 America/Guatemala] Quantity: 1
+[24-Nov-2025 11:51:15 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[24-Nov-2025 11:51:15 America/Guatemala] 📌 Producto a descontar - ID: 7, Cantidad: 1
+[24-Nov-2025 11:51:15 America/Guatemala] 📦 Producto encontrado: {"stock":50,"name":"Fuente 12V 2A"}
+[24-Nov-2025 11:51:15 America/Guatemala] 📦 Stock actual: 50
+[24-Nov-2025 11:51:15 America/Guatemala] 🔻 Descontando 1 unidades del producto ID 7
+[24-Nov-2025 11:51:15 America/Guatemala] ✅ Stock descontado exitosamente
+[24-Nov-2025 11:51:15 America/Guatemala] 💾 Generando número de factura...
+[24-Nov-2025 11:51:15 America/Guatemala] 📄 Número de factura: FAC-0041
+[24-Nov-2025 11:51:15 America/Guatemala] 💰 Total: 215.00
+[24-Nov-2025 11:51:15 America/Guatemala] ✅ Factura creada con ID: 52
+[24-Nov-2025 11:51:15 America/Guatemala] ✅ Transacción COMMIT exitoso
+[24-Nov-2025 11:51:15 America/Guatemala] 🎉 Factura generada exitosamente
+[24-Nov-2025 11:51:15 America/Guatemala] =================================
+[26-Nov-2025 11:51:25 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[26-Nov-2025 11:51:25 America/Guatemala] 📦 Input recibido: {"quote_id":21,"is_combo":false}
+[26-Nov-2025 11:51:25 America/Guatemala] 🔍 Quote ID: 21
+[26-Nov-2025 11:51:25 America/Guatemala] 🔍 Is Combo: NO (false)
+[26-Nov-2025 11:51:25 America/Guatemala] 🔍 Is Combo raw: false
+[26-Nov-2025 11:51:25 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[26-Nov-2025 11:51:25 America/Guatemala] 📊 Quote obtenida: {"id":21,"number":"MA-0016","type":"MA","client_id":3,"total":"645.00","status":"pending","created_at":"2025-11-23 17:19:16","updated_at":"2025-11-23 17:29:31"}
+[26-Nov-2025 11:51:25 America/Guatemala] 🔄 Transacción iniciada
+[26-Nov-2025 11:51:25 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[26-Nov-2025 11:51:25 America/Guatemala] === DEBUG ITEMS ===
+[26-Nov-2025 11:51:25 America/Guatemala] Total items obtenidos: 1
+[26-Nov-2025 11:51:25 America/Guatemala] Items completos: [{"id":66,"quote_id":21,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":3,"unit_price":"215.00","total":"645.00","added_after_invoice":0,"created_at":"2025-11-23 17:19:16"}]
+[26-Nov-2025 11:51:25 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[26-Nov-2025 11:51:25 America/Guatemala] Item completo: {"id":66,"quote_id":21,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":3,"unit_price":"215.00","total":"645.00","added_after_invoice":0,"created_at":"2025-11-23 17:19:16"}
+[26-Nov-2025 11:51:25 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 11:51:25 America/Guatemala] Product ID valor: 12
+[26-Nov-2025 11:51:25 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 11:51:25 America/Guatemala] Quantity: 3
+[26-Nov-2025 11:51:25 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 11:51:25 America/Guatemala] 📌 Producto a descontar - ID: 12, Cantidad: 3
+[26-Nov-2025 11:51:25 America/Guatemala] 📦 Producto encontrado: {"stock":9,"name":"Bocina Speaker Bluetooth"}
+[26-Nov-2025 11:51:25 America/Guatemala] 📦 Stock actual: 9
+[26-Nov-2025 11:51:25 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 12
+[26-Nov-2025 11:51:25 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 11:51:25 America/Guatemala] 💾 Generando número de factura...
+[26-Nov-2025 11:51:25 America/Guatemala] 📄 Número de factura: FAC-0042
+[26-Nov-2025 11:51:25 America/Guatemala] 💰 Total: 645.00
+[26-Nov-2025 11:51:25 America/Guatemala] ✅ Factura creada con ID: 53
+[26-Nov-2025 11:51:25 America/Guatemala] ✅ Transacción COMMIT exitoso
+[26-Nov-2025 11:51:25 America/Guatemala] 🎉 Factura generada exitosamente
+[26-Nov-2025 11:51:25 America/Guatemala] =================================
+[26-Nov-2025 16:32:39 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[26-Nov-2025 16:32:39 America/Guatemala] 📦 Input recibido: {"quote_id":21,"is_combo":false}
+[26-Nov-2025 16:32:39 America/Guatemala] 🔍 Quote ID: 21
+[26-Nov-2025 16:32:39 America/Guatemala] 🔍 Is Combo: NO (false)
+[26-Nov-2025 16:32:39 America/Guatemala] 🔍 Is Combo raw: false
+[26-Nov-2025 16:32:39 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[26-Nov-2025 16:32:39 America/Guatemala] 📊 Quote obtenida: {"id":21,"number":"MA-0016","type":"MA","client_id":3,"total":"645.00","status":"pending","created_at":"2025-11-23 17:19:16","updated_at":"2025-11-26 11:59:11"}
+[26-Nov-2025 16:32:39 America/Guatemala] 🔄 Transacción iniciada
+[26-Nov-2025 16:32:39 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[26-Nov-2025 16:32:39 America/Guatemala] === DEBUG ITEMS ===
+[26-Nov-2025 16:32:39 America/Guatemala] Total items obtenidos: 1
+[26-Nov-2025 16:32:39 America/Guatemala] Items completos: [{"id":66,"quote_id":21,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":3,"unit_price":"215.00","total":"645.00","added_after_invoice":0,"created_at":"2025-11-23 17:19:16"}]
+[26-Nov-2025 16:32:39 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[26-Nov-2025 16:32:39 America/Guatemala] Item completo: {"id":66,"quote_id":21,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":3,"unit_price":"215.00","total":"645.00","added_after_invoice":0,"created_at":"2025-11-23 17:19:16"}
+[26-Nov-2025 16:32:39 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 16:32:39 America/Guatemala] Product ID valor: 12
+[26-Nov-2025 16:32:39 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 16:32:39 America/Guatemala] Quantity: 3
+[26-Nov-2025 16:32:39 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 16:32:39 America/Guatemala] 📌 Producto a descontar - ID: 12, Cantidad: 3
+[26-Nov-2025 16:32:39 America/Guatemala] 📦 Producto encontrado: {"stock":9,"name":"Bocina Speaker Bluetooth"}
+[26-Nov-2025 16:32:39 America/Guatemala] 📦 Stock actual: 9
+[26-Nov-2025 16:32:39 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 12
+[26-Nov-2025 16:32:39 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 16:32:39 America/Guatemala] 💾 Generando número de factura...
+[26-Nov-2025 16:32:39 America/Guatemala] 📄 Número de factura: FAC-0043
+[26-Nov-2025 16:32:39 America/Guatemala] 💰 Total: 645.00
+[26-Nov-2025 16:32:39 America/Guatemala] ✅ Factura creada con ID: 54
+[26-Nov-2025 16:32:39 America/Guatemala] ✅ Transacción COMMIT exitoso
+[26-Nov-2025 16:32:39 America/Guatemala] 🎉 Factura generada exitosamente
+[26-Nov-2025 16:32:39 America/Guatemala] =================================
+[26-Nov-2025 16:36:13 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[26-Nov-2025 16:36:13 America/Guatemala] 📦 Input recibido: {"quote_id":2,"is_combo":true}
+[26-Nov-2025 16:36:13 America/Guatemala] 🔍 Quote ID: 2
+[26-Nov-2025 16:36:13 America/Guatemala] 🔍 Is Combo: SI (true)
+[26-Nov-2025 16:36:13 America/Guatemala] 🔍 Is Combo raw: true
+[26-Nov-2025 16:36:13 America/Guatemala] 📋 Obteniendo datos de COMBO_QUOTES
+[26-Nov-2025 16:36:13 America/Guatemala] 📊 Quote obtenida: {"id":2,"number":"COMBO-0002","combo_id":9,"client_id":6,"total":"480.00","status":"pending","created_at":"2025-11-23 16:41:42","updated_at":"2025-11-23 17:04:12","type":"COMBO"}
+[26-Nov-2025 16:36:13 America/Guatemala] 🔄 Transacción iniciada
+[26-Nov-2025 16:36:13 America/Guatemala] 📦 Obteniendo items de COMBO_QUOTE_ITEMS
+[26-Nov-2025 16:36:13 America/Guatemala] === DEBUG ITEMS ===
+[26-Nov-2025 16:36:13 America/Guatemala] Total items obtenidos: 2
+[26-Nov-2025 16:36:13 America/Guatemala] Items completos: [{"id":4,"combo_quote_id":2,"product_id":9,"description":"C\u00e1mara pro plus Max","quantity":2,"unit_price":"45.00","total":"90.00","created_at":"2025-11-23 16:41:42"},{"id":5,"combo_quote_id":2,"product_id":2,"description":"C\u00e1mara IP 4MP Exterior","quantity":3,"unit_price":"130.00","total":"390.00","created_at":"2025-11-23 16:41:42"}]
+[26-Nov-2025 16:36:13 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[26-Nov-2025 16:36:13 America/Guatemala] Item completo: {"id":4,"combo_quote_id":2,"product_id":9,"description":"C\u00e1mara pro plus Max","quantity":2,"unit_price":"45.00","total":"90.00","created_at":"2025-11-23 16:41:42"}
+[26-Nov-2025 16:36:13 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 16:36:13 America/Guatemala] Product ID valor: 9
+[26-Nov-2025 16:36:13 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 16:36:13 America/Guatemala] Quantity: 2
+[26-Nov-2025 16:36:13 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 16:36:13 America/Guatemala] 📌 Producto a descontar - ID: 9, Cantidad: 2
+[26-Nov-2025 16:36:13 America/Guatemala] 📦 Producto encontrado: {"stock":4,"name":"C\u00e1mara pro plus Max"}
+[26-Nov-2025 16:36:13 America/Guatemala] 📦 Stock actual: 4
+[26-Nov-2025 16:36:13 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 9
+[26-Nov-2025 16:36:13 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 16:36:13 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[26-Nov-2025 16:36:13 America/Guatemala] Item completo: {"id":5,"combo_quote_id":2,"product_id":2,"description":"C\u00e1mara IP 4MP Exterior","quantity":3,"unit_price":"130.00","total":"390.00","created_at":"2025-11-23 16:41:42"}
+[26-Nov-2025 16:36:13 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 16:36:13 America/Guatemala] Product ID valor: 2
+[26-Nov-2025 16:36:13 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 16:36:13 America/Guatemala] Quantity: 3
+[26-Nov-2025 16:36:13 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 16:36:13 America/Guatemala] 📌 Producto a descontar - ID: 2, Cantidad: 3
+[26-Nov-2025 16:36:13 America/Guatemala] 📦 Producto encontrado: {"stock":15,"name":"C\u00e1mara IP 4MP Exterior"}
+[26-Nov-2025 16:36:13 America/Guatemala] 📦 Stock actual: 15
+[26-Nov-2025 16:36:13 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 2
+[26-Nov-2025 16:36:13 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 16:36:13 America/Guatemala] 💾 Generando número de factura...
+[26-Nov-2025 16:36:13 America/Guatemala] 📄 Número de factura: FAC-0044
+[26-Nov-2025 16:36:13 America/Guatemala] 💰 Total: 480.00
+[26-Nov-2025 16:36:13 America/Guatemala] ✅ Factura creada con ID: 55
+[26-Nov-2025 16:36:13 America/Guatemala] ✅ Transacción COMMIT exitoso
+[26-Nov-2025 16:36:13 America/Guatemala] 🎉 Factura generada exitosamente
+[26-Nov-2025 16:36:13 America/Guatemala] =================================
+[26-Nov-2025 16:41:26 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[26-Nov-2025 16:41:26 America/Guatemala] 📦 Input recibido: {"quote_id":7,"is_combo":false}
+[26-Nov-2025 16:41:26 America/Guatemala] 🔍 Quote ID: 7
+[26-Nov-2025 16:41:26 America/Guatemala] 🔍 Is Combo: NO (false)
+[26-Nov-2025 16:41:26 America/Guatemala] 🔍 Is Combo raw: false
+[26-Nov-2025 16:41:26 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[26-Nov-2025 16:41:26 America/Guatemala] 📊 Quote obtenida: {"id":7,"number":"MA-0005","type":"MA","client_id":5,"total":"1800.00","status":"pending","created_at":"2025-11-15 15:06:39","updated_at":"2025-11-23 16:43:14"}
+[26-Nov-2025 16:41:26 America/Guatemala] 🔄 Transacción iniciada
+[26-Nov-2025 16:41:26 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[26-Nov-2025 16:41:26 America/Guatemala] === DEBUG ITEMS ===
+[26-Nov-2025 16:41:26 America/Guatemala] Total items obtenidos: 2
+[26-Nov-2025 16:41:26 America/Guatemala] Items completos: [{"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"},{"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}]
+[26-Nov-2025 16:41:26 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[26-Nov-2025 16:41:26 America/Guatemala] Item completo: {"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"}
+[26-Nov-2025 16:41:26 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 16:41:26 America/Guatemala] Product ID valor: 5
+[26-Nov-2025 16:41:26 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 16:41:26 America/Guatemala] Quantity: 5
+[26-Nov-2025 16:41:26 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 16:41:26 America/Guatemala] 📌 Producto a descontar - ID: 5, Cantidad: 5
+[26-Nov-2025 16:41:26 America/Guatemala] 📦 Producto encontrado: {"stock":10,"name":"DVR 8 Canales"}
+[26-Nov-2025 16:41:26 America/Guatemala] 📦 Stock actual: 10
+[26-Nov-2025 16:41:26 America/Guatemala] 🔻 Descontando 5 unidades del producto ID 5
+[26-Nov-2025 16:41:26 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 16:41:26 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[26-Nov-2025 16:41:26 America/Guatemala] Item completo: {"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}
+[26-Nov-2025 16:41:26 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 16:41:26 America/Guatemala] Product ID valor: 8
+[26-Nov-2025 16:41:26 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 16:41:26 America/Guatemala] Quantity: 2
+[26-Nov-2025 16:41:26 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 16:41:26 America/Guatemala] 📌 Producto a descontar - ID: 8, Cantidad: 2
+[26-Nov-2025 16:41:26 America/Guatemala] 📦 Producto encontrado: {"stock":16,"name":"Monitor LED 24&quot;"}
+[26-Nov-2025 16:41:26 America/Guatemala] 📦 Stock actual: 16
+[26-Nov-2025 16:41:26 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 8
+[26-Nov-2025 16:41:26 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 16:41:26 America/Guatemala] 💾 Generando número de factura...
+[26-Nov-2025 16:41:26 America/Guatemala] 📄 Número de factura: FAC-0045
+[26-Nov-2025 16:41:26 America/Guatemala] 💰 Total: 1800.00
+[26-Nov-2025 16:41:26 America/Guatemala] ✅ Factura creada con ID: 56
+[26-Nov-2025 16:41:26 America/Guatemala] ✅ Transacción COMMIT exitoso
+[26-Nov-2025 16:41:26 America/Guatemala] 🎉 Factura generada exitosamente
+[26-Nov-2025 16:41:26 America/Guatemala] =================================
+[26-Nov-2025 16:49:28 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[26-Nov-2025 16:49:28 America/Guatemala] 📦 Input recibido: {"quote_id":7,"is_combo":false}
+[26-Nov-2025 16:49:28 America/Guatemala] 🔍 Quote ID: 7
+[26-Nov-2025 16:49:28 America/Guatemala] 🔍 Is Combo: NO (false)
+[26-Nov-2025 16:49:28 America/Guatemala] 🔍 Is Combo raw: false
+[26-Nov-2025 16:49:28 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[26-Nov-2025 16:49:28 America/Guatemala] 📊 Quote obtenida: {"id":7,"number":"MA-0005","type":"MA","client_id":5,"total":"1800.00","status":"pending","created_at":"2025-11-15 15:06:39","updated_at":"2025-11-26 16:48:50"}
+[26-Nov-2025 16:49:28 America/Guatemala] 🔄 Transacción iniciada
+[26-Nov-2025 16:49:28 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[26-Nov-2025 16:49:28 America/Guatemala] === DEBUG ITEMS ===
+[26-Nov-2025 16:49:28 America/Guatemala] Total items obtenidos: 2
+[26-Nov-2025 16:49:28 America/Guatemala] Items completos: [{"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"},{"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}]
+[26-Nov-2025 16:49:28 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[26-Nov-2025 16:49:28 America/Guatemala] Item completo: {"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"}
+[26-Nov-2025 16:49:28 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 16:49:28 America/Guatemala] Product ID valor: 5
+[26-Nov-2025 16:49:28 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 16:49:28 America/Guatemala] Quantity: 5
+[26-Nov-2025 16:49:28 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 16:49:28 America/Guatemala] 📌 Producto a descontar - ID: 5, Cantidad: 5
+[26-Nov-2025 16:49:28 America/Guatemala] 📦 Producto encontrado: {"stock":10,"name":"DVR 8 Canales"}
+[26-Nov-2025 16:49:28 America/Guatemala] 📦 Stock actual: 10
+[26-Nov-2025 16:49:28 America/Guatemala] 🔻 Descontando 5 unidades del producto ID 5
+[26-Nov-2025 16:49:28 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 16:49:28 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[26-Nov-2025 16:49:28 America/Guatemala] Item completo: {"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}
+[26-Nov-2025 16:49:28 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 16:49:28 America/Guatemala] Product ID valor: 8
+[26-Nov-2025 16:49:28 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 16:49:28 America/Guatemala] Quantity: 2
+[26-Nov-2025 16:49:28 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 16:49:28 America/Guatemala] 📌 Producto a descontar - ID: 8, Cantidad: 2
+[26-Nov-2025 16:49:28 America/Guatemala] 📦 Producto encontrado: {"stock":16,"name":"Monitor LED 24&quot;"}
+[26-Nov-2025 16:49:28 America/Guatemala] 📦 Stock actual: 16
+[26-Nov-2025 16:49:28 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 8
+[26-Nov-2025 16:49:28 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 16:49:28 America/Guatemala] 💾 Generando número de factura...
+[26-Nov-2025 16:49:28 America/Guatemala] 📄 Número de factura: FAC-0046
+[26-Nov-2025 16:49:28 America/Guatemala] 💰 Total: 1800.00
+[26-Nov-2025 16:49:28 America/Guatemala] ✅ Factura creada con ID: 57
+[26-Nov-2025 16:49:28 America/Guatemala] ✅ Transacción COMMIT exitoso
+[26-Nov-2025 16:49:28 America/Guatemala] 🎉 Factura generada exitosamente
+[26-Nov-2025 16:49:28 America/Guatemala] =================================
+[26-Nov-2025 17:12:51 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[26-Nov-2025 17:12:51 America/Guatemala] 📦 Input recibido: {"quote_id":7,"is_combo":false,"work_messages":"[\"QUE LO QUE MAMAHUEVO\",\"GAY EL DE SANCRIS\"]"}
+[26-Nov-2025 17:12:51 America/Guatemala] 📋 Work messages recibidos: ["QUE LO QUE MAMAHUEVO","GAY EL DE SANCRIS"]
+[26-Nov-2025 17:12:51 America/Guatemala] 🔍 Quote ID: 7
+[26-Nov-2025 17:12:51 America/Guatemala] 🔍 Is Combo: NO (false)
+[26-Nov-2025 17:12:51 America/Guatemala] 🔍 Is Combo raw: false
+[26-Nov-2025 17:12:51 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[26-Nov-2025 17:12:51 America/Guatemala] 📊 Quote obtenida: {"id":7,"number":"MA-0005","type":"MA","client_id":5,"total":"1800.00","status":"pending","created_at":"2025-11-15 15:06:39","updated_at":"2025-11-26 17:12:16"}
+[26-Nov-2025 17:12:51 America/Guatemala] 🔄 Transacción iniciada
+[26-Nov-2025 17:12:51 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[26-Nov-2025 17:12:51 America/Guatemala] === DEBUG ITEMS ===
+[26-Nov-2025 17:12:51 America/Guatemala] Total items obtenidos: 2
+[26-Nov-2025 17:12:51 America/Guatemala] Items completos: [{"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"},{"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}]
+[26-Nov-2025 17:12:51 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[26-Nov-2025 17:12:51 America/Guatemala] Item completo: {"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"}
+[26-Nov-2025 17:12:51 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 17:12:51 America/Guatemala] Product ID valor: 5
+[26-Nov-2025 17:12:51 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 17:12:51 America/Guatemala] Quantity: 5
+[26-Nov-2025 17:12:51 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 17:12:51 America/Guatemala] 📌 Producto a descontar - ID: 5, Cantidad: 5
+[26-Nov-2025 17:12:51 America/Guatemala] 📦 Producto encontrado: {"stock":10,"name":"DVR 8 Canales"}
+[26-Nov-2025 17:12:51 America/Guatemala] 📦 Stock actual: 10
+[26-Nov-2025 17:12:51 America/Guatemala] 🔻 Descontando 5 unidades del producto ID 5
+[26-Nov-2025 17:12:51 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 17:12:51 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[26-Nov-2025 17:12:51 America/Guatemala] Item completo: {"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}
+[26-Nov-2025 17:12:51 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 17:12:51 America/Guatemala] Product ID valor: 8
+[26-Nov-2025 17:12:51 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 17:12:51 America/Guatemala] Quantity: 2
+[26-Nov-2025 17:12:51 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 17:12:51 America/Guatemala] 📌 Producto a descontar - ID: 8, Cantidad: 2
+[26-Nov-2025 17:12:51 America/Guatemala] 📦 Producto encontrado: {"stock":16,"name":"Monitor LED 24&quot;"}
+[26-Nov-2025 17:12:51 America/Guatemala] 📦 Stock actual: 16
+[26-Nov-2025 17:12:51 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 8
+[26-Nov-2025 17:12:51 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 17:12:51 America/Guatemala] 💾 Generando número de factura...
+[26-Nov-2025 17:12:51 America/Guatemala] 📄 Número de factura: FAC-0047
+[26-Nov-2025 17:12:51 America/Guatemala] 💰 Total: 1800.00
+[26-Nov-2025 17:12:51 America/Guatemala] 📋 Work messages a guardar: ["QUE LO QUE MAMAHUEVO","GAY EL DE SANCRIS"]
+[26-Nov-2025 17:12:51 America/Guatemala] ✅ Factura creada con ID: 58
+[26-Nov-2025 17:12:51 America/Guatemala] ✅ Transacción COMMIT exitoso
+[26-Nov-2025 17:12:51 America/Guatemala] 🎉 Factura generada exitosamente
+[26-Nov-2025 17:12:51 America/Guatemala] =================================
+[26-Nov-2025 18:18:04 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[26-Nov-2025 18:18:04 America/Guatemala] 📦 Input recibido: {"quote_id":7,"is_combo":false,"work_messages":"[\"MMMMMMMMMMMMMMMM\",\"MMMMMMMMMMMMM\"]"}
+[26-Nov-2025 18:18:04 America/Guatemala] 📋 Work messages recibidos: ["MMMMMMMMMMMMMMMM","MMMMMMMMMMMMM"]
+[26-Nov-2025 18:18:04 America/Guatemala] 🔍 Quote ID: 7
+[26-Nov-2025 18:18:04 America/Guatemala] 🔍 Is Combo: NO (false)
+[26-Nov-2025 18:18:04 America/Guatemala] 🔍 Is Combo raw: false
+[26-Nov-2025 18:18:04 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[26-Nov-2025 18:18:04 America/Guatemala] 📊 Quote obtenida: {"id":7,"number":"MA-0005","type":"MA","client_id":5,"total":"1800.00","status":"pending","created_at":"2025-11-15 15:06:39","updated_at":"2025-11-26 17:15:19","work_messages":null}
+[26-Nov-2025 18:18:04 America/Guatemala] 🔄 Transacción iniciada
+[26-Nov-2025 18:18:04 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[26-Nov-2025 18:18:04 America/Guatemala] === DEBUG ITEMS ===
+[26-Nov-2025 18:18:04 America/Guatemala] Total items obtenidos: 2
+[26-Nov-2025 18:18:04 America/Guatemala] Items completos: [{"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"},{"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}]
+[26-Nov-2025 18:18:04 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[26-Nov-2025 18:18:04 America/Guatemala] Item completo: {"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"}
+[26-Nov-2025 18:18:04 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 18:18:04 America/Guatemala] Product ID valor: 5
+[26-Nov-2025 18:18:04 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 18:18:04 America/Guatemala] Quantity: 5
+[26-Nov-2025 18:18:04 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 18:18:04 America/Guatemala] 📌 Producto a descontar - ID: 5, Cantidad: 5
+[26-Nov-2025 18:18:04 America/Guatemala] 📦 Producto encontrado: {"stock":10,"name":"DVR 8 Canales"}
+[26-Nov-2025 18:18:04 America/Guatemala] 📦 Stock actual: 10
+[26-Nov-2025 18:18:04 America/Guatemala] 🔻 Descontando 5 unidades del producto ID 5
+[26-Nov-2025 18:18:04 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 18:18:04 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[26-Nov-2025 18:18:04 America/Guatemala] Item completo: {"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}
+[26-Nov-2025 18:18:04 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 18:18:04 America/Guatemala] Product ID valor: 8
+[26-Nov-2025 18:18:04 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 18:18:04 America/Guatemala] Quantity: 2
+[26-Nov-2025 18:18:04 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 18:18:04 America/Guatemala] 📌 Producto a descontar - ID: 8, Cantidad: 2
+[26-Nov-2025 18:18:04 America/Guatemala] 📦 Producto encontrado: {"stock":16,"name":"Monitor LED 24&quot;"}
+[26-Nov-2025 18:18:04 America/Guatemala] 📦 Stock actual: 16
+[26-Nov-2025 18:18:04 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 8
+[26-Nov-2025 18:18:04 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 18:18:04 America/Guatemala] 💾 Generando número de factura...
+[26-Nov-2025 18:18:04 America/Guatemala] 📄 Número de factura: FAC-0048
+[26-Nov-2025 18:18:04 America/Guatemala] 💰 Total: 1800.00
+[26-Nov-2025 18:18:04 America/Guatemala] 📋 Work messages a guardar: ["MMMMMMMMMMMMMMMM","MMMMMMMMMMMMM"]
+[26-Nov-2025 18:18:04 America/Guatemala] ✅ Factura creada con ID: 59
+[26-Nov-2025 18:18:04 America/Guatemala] ✅ Transacción COMMIT exitoso
+[26-Nov-2025 18:18:04 America/Guatemala] 🎉 Factura generada exitosamente
+[26-Nov-2025 18:18:04 America/Guatemala] =================================
+[26-Nov-2025 18:19:00 America/Guatemala] 📋 Mensajes a preservar: ["MMMMMMMMMMMMMMMM","MMMMMMMMMMMMM"]
+[26-Nov-2025 18:19:12 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[26-Nov-2025 18:19:12 America/Guatemala] 📦 Input recibido: {"quote_id":7,"is_combo":false,"work_messages":null}
+[26-Nov-2025 18:19:12 America/Guatemala] 📋 Work messages recibidos: NULL
+[26-Nov-2025 18:19:12 America/Guatemala] 🔍 Quote ID: 7
+[26-Nov-2025 18:19:12 America/Guatemala] 🔍 Is Combo: NO (false)
+[26-Nov-2025 18:19:12 America/Guatemala] 🔍 Is Combo raw: false
+[26-Nov-2025 18:19:12 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[26-Nov-2025 18:19:12 America/Guatemala] 📊 Quote obtenida: {"id":7,"number":"MA-0005","type":"MA","client_id":5,"total":"1800.00","status":"pending","created_at":"2025-11-15 15:06:39","updated_at":"2025-11-26 18:19:00","work_messages":"[\"MMMMMMMMMMMMMMMM\",\"MMMMMMMMMMMMM\"]"}
+[26-Nov-2025 18:19:12 America/Guatemala] 🔄 Transacción iniciada
+[26-Nov-2025 18:19:12 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[26-Nov-2025 18:19:12 America/Guatemala] === DEBUG ITEMS ===
+[26-Nov-2025 18:19:12 America/Guatemala] Total items obtenidos: 2
+[26-Nov-2025 18:19:12 America/Guatemala] Items completos: [{"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"},{"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}]
+[26-Nov-2025 18:19:12 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[26-Nov-2025 18:19:12 America/Guatemala] Item completo: {"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"}
+[26-Nov-2025 18:19:12 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 18:19:12 America/Guatemala] Product ID valor: 5
+[26-Nov-2025 18:19:12 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 18:19:12 America/Guatemala] Quantity: 5
+[26-Nov-2025 18:19:12 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 18:19:12 America/Guatemala] 📌 Producto a descontar - ID: 5, Cantidad: 5
+[26-Nov-2025 18:19:12 America/Guatemala] 📦 Producto encontrado: {"stock":10,"name":"DVR 8 Canales"}
+[26-Nov-2025 18:19:12 America/Guatemala] 📦 Stock actual: 10
+[26-Nov-2025 18:19:12 America/Guatemala] 🔻 Descontando 5 unidades del producto ID 5
+[26-Nov-2025 18:19:12 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 18:19:12 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[26-Nov-2025 18:19:12 America/Guatemala] Item completo: {"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}
+[26-Nov-2025 18:19:12 America/Guatemala] Product ID existe: SI
+[26-Nov-2025 18:19:12 America/Guatemala] Product ID valor: 8
+[26-Nov-2025 18:19:12 America/Guatemala] Product ID es truthy: SI
+[26-Nov-2025 18:19:12 America/Guatemala] Quantity: 2
+[26-Nov-2025 18:19:12 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[26-Nov-2025 18:19:12 America/Guatemala] 📌 Producto a descontar - ID: 8, Cantidad: 2
+[26-Nov-2025 18:19:12 America/Guatemala] 📦 Producto encontrado: {"stock":16,"name":"Monitor LED 24&quot;"}
+[26-Nov-2025 18:19:12 America/Guatemala] 📦 Stock actual: 16
+[26-Nov-2025 18:19:12 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 8
+[26-Nov-2025 18:19:12 America/Guatemala] ✅ Stock descontado exitosamente
+[26-Nov-2025 18:19:12 America/Guatemala] 💾 Generando número de factura...
+[26-Nov-2025 18:19:12 America/Guatemala] 📄 Número de factura: FAC-0049
+[26-Nov-2025 18:19:12 America/Guatemala] 💰 Total: 1800.00
+[26-Nov-2025 18:19:12 America/Guatemala] 📋 Work messages a guardar: NULL
+[26-Nov-2025 18:19:12 America/Guatemala] ✅ Factura creada con ID: 60
+[26-Nov-2025 18:19:12 America/Guatemala] ✅ Transacción COMMIT exitoso
+[26-Nov-2025 18:19:12 America/Guatemala] 🎉 Factura generada exitosamente
+[26-Nov-2025 18:19:12 America/Guatemala] =================================
+[26-Nov-2025 18:20:19 America/Guatemala] 📋 Mensajes a preservar: NULL
+[27-Nov-2025 10:40:06 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[27-Nov-2025 10:40:06 America/Guatemala] 📦 Input recibido: {"quote_id":7,"is_combo":false,"work_messages":"[\"TRAKAAAS\"]"}
+[27-Nov-2025 10:40:06 America/Guatemala] 📋 Work messages recibidos: ["TRAKAAAS"]
+[27-Nov-2025 10:40:06 America/Guatemala] 🔍 Quote ID: 7
+[27-Nov-2025 10:40:06 America/Guatemala] 🔍 Is Combo: NO (false)
+[27-Nov-2025 10:40:06 America/Guatemala] 🔍 Is Combo raw: false
+[27-Nov-2025 10:40:06 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[27-Nov-2025 10:40:06 America/Guatemala] 📊 Quote obtenida: {"id":7,"number":"MA-0005","type":"MA","client_id":5,"total":"1800.00","status":"pending","created_at":"2025-11-15 15:06:39","updated_at":"2025-11-26 18:20:19","work_messages":null}
+[27-Nov-2025 10:40:06 America/Guatemala] 🔄 Transacción iniciada
+[27-Nov-2025 10:40:06 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[27-Nov-2025 10:40:06 America/Guatemala] === DEBUG ITEMS ===
+[27-Nov-2025 10:40:06 America/Guatemala] Total items obtenidos: 2
+[27-Nov-2025 10:40:06 America/Guatemala] Items completos: [{"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"},{"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}]
+[27-Nov-2025 10:40:06 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[27-Nov-2025 10:40:06 America/Guatemala] Item completo: {"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"}
+[27-Nov-2025 10:40:06 America/Guatemala] Product ID existe: SI
+[27-Nov-2025 10:40:06 America/Guatemala] Product ID valor: 5
+[27-Nov-2025 10:40:06 America/Guatemala] Product ID es truthy: SI
+[27-Nov-2025 10:40:06 America/Guatemala] Quantity: 5
+[27-Nov-2025 10:40:06 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[27-Nov-2025 10:40:06 America/Guatemala] 📌 Producto a descontar - ID: 5, Cantidad: 5
+[27-Nov-2025 10:40:06 America/Guatemala] 📦 Producto encontrado: {"stock":10,"name":"DVR 8 Canales"}
+[27-Nov-2025 10:40:06 America/Guatemala] 📦 Stock actual: 10
+[27-Nov-2025 10:40:06 America/Guatemala] 🔻 Descontando 5 unidades del producto ID 5
+[27-Nov-2025 10:40:06 America/Guatemala] ✅ Stock descontado exitosamente
+[27-Nov-2025 10:40:06 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[27-Nov-2025 10:40:06 America/Guatemala] Item completo: {"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}
+[27-Nov-2025 10:40:06 America/Guatemala] Product ID existe: SI
+[27-Nov-2025 10:40:06 America/Guatemala] Product ID valor: 8
+[27-Nov-2025 10:40:06 America/Guatemala] Product ID es truthy: SI
+[27-Nov-2025 10:40:06 America/Guatemala] Quantity: 2
+[27-Nov-2025 10:40:06 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[27-Nov-2025 10:40:06 America/Guatemala] 📌 Producto a descontar - ID: 8, Cantidad: 2
+[27-Nov-2025 10:40:06 America/Guatemala] 📦 Producto encontrado: {"stock":16,"name":"Monitor LED 24&quot;"}
+[27-Nov-2025 10:40:06 America/Guatemala] 📦 Stock actual: 16
+[27-Nov-2025 10:40:06 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 8
+[27-Nov-2025 10:40:06 America/Guatemala] ✅ Stock descontado exitosamente
+[27-Nov-2025 10:40:06 America/Guatemala] 💾 Generando número de factura...
+[27-Nov-2025 10:40:06 America/Guatemala] 📄 Número de factura: FAC-0050
+[27-Nov-2025 10:40:06 America/Guatemala] 💰 Total: 1800.00
+[27-Nov-2025 10:40:06 America/Guatemala] 📋 Work messages a guardar: ["TRAKAAAS"]
+[27-Nov-2025 10:40:06 America/Guatemala] ✅ Factura creada con ID: 61
+[27-Nov-2025 10:40:06 America/Guatemala] ✅ Transacción COMMIT exitoso
+[27-Nov-2025 10:40:06 America/Guatemala] 🎉 Factura generada exitosamente
+[27-Nov-2025 10:40:06 America/Guatemala] =================================
+[27-Nov-2025 10:46:57 America/Guatemala] 📋 Mensajes a preservar: ["TRAKAAAS"]
+[27-Nov-2025 11:02:55 America/Guatemala] PHP Warning:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in C:\xampp\htdocs\gestion-empresarial\api\invoices.php:433
+Stack trace:
+#0 C:\xampp\htdocs\gestion-empresarial\api\invoices.php(433): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\gestion-empresarial\api\invoices.php on line 433
+[27-Nov-2025 11:02:55 America/Guatemala] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in C:\xampp\htdocs\gestion-empresarial\api\invoices.php on line 525
+[27-Nov-2025 11:02:59 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[27-Nov-2025 11:02:59 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 11:03:03 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[27-Nov-2025 11:03:03 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 11:03:07 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[27-Nov-2025 11:03:07 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 11:03:11 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[27-Nov-2025 11:03:11 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 11:03:15 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[27-Nov-2025 11:03:15 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 11:03:19 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[27-Nov-2025 11:03:19 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 11:03:23 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[27-Nov-2025 11:03:23 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 11:07:23 America/Guatemala] 📋 Mensajes a preservar: ["TRAKAAAS"]
+[27-Nov-2025 11:09:44 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[27-Nov-2025 11:09:44 America/Guatemala] 📦 Input recibido: {"quote_id":7,"is_combo":false,"work_messages":"[\"Servicio de computaci\u00f3n general\",\"Mantenimiento de equipo \",\"Instalaci\u00f3n el\u00e9ctrica \"]"}
+[27-Nov-2025 11:09:44 America/Guatemala] 📋 Work messages recibidos: ["Servicio de computación general","Mantenimiento de equipo ","Instalación eléctrica "]
+[27-Nov-2025 11:09:44 America/Guatemala] 🔍 Quote ID: 7
+[27-Nov-2025 11:09:44 America/Guatemala] 🔍 Is Combo: NO (false)
+[27-Nov-2025 11:09:44 America/Guatemala] 🔍 Is Combo raw: false
+[27-Nov-2025 11:09:44 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[27-Nov-2025 11:09:44 America/Guatemala] 📊 Quote obtenida: {"id":7,"number":"MA-0005","type":"MA","client_id":5,"total":"1800.00","status":"pending","created_at":"2025-11-15 15:06:39","updated_at":"2025-11-27 11:07:23","work_messages":"[\"TRAKAAAS\"]"}
+[27-Nov-2025 11:09:44 America/Guatemala] 🔄 Transacción iniciada
+[27-Nov-2025 11:09:44 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[27-Nov-2025 11:09:44 America/Guatemala] === DEBUG ITEMS ===
+[27-Nov-2025 11:09:44 America/Guatemala] Total items obtenidos: 2
+[27-Nov-2025 11:09:44 America/Guatemala] Items completos: [{"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"},{"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}]
+[27-Nov-2025 11:09:44 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[27-Nov-2025 11:09:44 America/Guatemala] Item completo: {"id":18,"quote_id":7,"product_id":5,"description":"DVR 8 Canales","quantity":5,"unit_price":"300.00","total":"1500.00","added_after_invoice":0,"created_at":"2025-11-15 19:43:39"}
+[27-Nov-2025 11:09:44 America/Guatemala] Product ID existe: SI
+[27-Nov-2025 11:09:44 America/Guatemala] Product ID valor: 5
+[27-Nov-2025 11:09:44 America/Guatemala] Product ID es truthy: SI
+[27-Nov-2025 11:09:44 America/Guatemala] Quantity: 5
+[27-Nov-2025 11:09:44 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[27-Nov-2025 11:09:44 America/Guatemala] 📌 Producto a descontar - ID: 5, Cantidad: 5
+[27-Nov-2025 11:09:44 America/Guatemala] 📦 Producto encontrado: {"stock":10,"name":"DVR 8 Canales"}
+[27-Nov-2025 11:09:44 America/Guatemala] 📦 Stock actual: 10
+[27-Nov-2025 11:09:44 America/Guatemala] 🔻 Descontando 5 unidades del producto ID 5
+[27-Nov-2025 11:09:44 America/Guatemala] ✅ Stock descontado exitosamente
+[27-Nov-2025 11:09:44 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[27-Nov-2025 11:09:44 America/Guatemala] Item completo: {"id":62,"quote_id":7,"product_id":8,"description":"Monitor LED 24\"","quantity":2,"unit_price":"150.00","total":"300.00","added_after_invoice":0,"created_at":"2025-11-21 18:43:46"}
+[27-Nov-2025 11:09:44 America/Guatemala] Product ID existe: SI
+[27-Nov-2025 11:09:44 America/Guatemala] Product ID valor: 8
+[27-Nov-2025 11:09:44 America/Guatemala] Product ID es truthy: SI
+[27-Nov-2025 11:09:44 America/Guatemala] Quantity: 2
+[27-Nov-2025 11:09:44 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[27-Nov-2025 11:09:44 America/Guatemala] 📌 Producto a descontar - ID: 8, Cantidad: 2
+[27-Nov-2025 11:09:44 America/Guatemala] 📦 Producto encontrado: {"stock":16,"name":"Monitor LED 24&quot;"}
+[27-Nov-2025 11:09:44 America/Guatemala] 📦 Stock actual: 16
+[27-Nov-2025 11:09:44 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 8
+[27-Nov-2025 11:09:44 America/Guatemala] ✅ Stock descontado exitosamente
+[27-Nov-2025 11:09:44 America/Guatemala] 💾 Generando número de factura...
+[27-Nov-2025 11:09:44 America/Guatemala] 📄 Número de factura: FAC-0051
+[27-Nov-2025 11:09:44 America/Guatemala] 💰 Total: 1800.00
+[27-Nov-2025 11:09:44 America/Guatemala] 📋 Work messages a guardar: ["Servicio de computación general","Mantenimiento de equipo ","Instalación eléctrica "]
+[27-Nov-2025 11:09:44 America/Guatemala] ✅ Factura creada con ID: 62
+[27-Nov-2025 11:09:44 America/Guatemala] ✅ Transacción COMMIT exitoso
+[27-Nov-2025 11:09:44 America/Guatemala] 🎉 Factura generada exitosamente
+[27-Nov-2025 11:09:44 America/Guatemala] =================================
+[27-Nov-2025 22:14:51 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[27-Nov-2025 22:14:51 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 22:14:55 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2006] MySQL server has gone away
+[27-Nov-2025 22:14:55 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[27-Nov-2025 23:58:13 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[27-Nov-2025 23:58:13 America/Guatemala] 📦 Input recibido: {"quote_id":19,"is_combo":false,"work_messages":null}
+[27-Nov-2025 23:58:13 America/Guatemala] 📋 Work messages recibidos: NULL
+[27-Nov-2025 23:58:13 America/Guatemala] 🔍 Quote ID: 19
+[27-Nov-2025 23:58:13 America/Guatemala] 🔍 Is Combo: NO (false)
+[27-Nov-2025 23:58:13 America/Guatemala] 🔍 Is Combo raw: false
+[27-Nov-2025 23:58:13 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[27-Nov-2025 23:58:13 America/Guatemala] 📊 Quote obtenida: {"id":19,"number":"MO-0005","type":"MO","client_id":6,"total":"660.00","status":"pending","created_at":"2025-11-21 18:21:18","updated_at":"2025-11-21 18:58:18","work_messages":null}
+[27-Nov-2025 23:58:13 America/Guatemala] 🔄 Transacción iniciada
+[27-Nov-2025 23:58:13 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[27-Nov-2025 23:58:13 America/Guatemala] === DEBUG ITEMS ===
+[27-Nov-2025 23:58:13 America/Guatemala] Total items obtenidos: 2
+[27-Nov-2025 23:58:13 America/Guatemala] Items completos: [{"id":58,"quote_id":19,"product_id":11,"description":"C\u00e1mara Lenovo Full","quantity":3,"unit_price":"70.00","total":"210.00","added_after_invoice":0,"created_at":"2025-11-21 18:21:18"},{"id":59,"quote_id":19,"product_id":8,"description":"Monitor LED 24","quantity":3,"unit_price":"150.00","total":"450.00","added_after_invoice":0,"created_at":"2025-11-21 18:21:18"}]
+[27-Nov-2025 23:58:13 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[27-Nov-2025 23:58:13 America/Guatemala] Item completo: {"id":58,"quote_id":19,"product_id":11,"description":"C\u00e1mara Lenovo Full","quantity":3,"unit_price":"70.00","total":"210.00","added_after_invoice":0,"created_at":"2025-11-21 18:21:18"}
+[27-Nov-2025 23:58:13 America/Guatemala] Product ID existe: SI
+[27-Nov-2025 23:58:13 America/Guatemala] Product ID valor: 11
+[27-Nov-2025 23:58:13 America/Guatemala] Product ID es truthy: SI
+[27-Nov-2025 23:58:13 America/Guatemala] Quantity: 3
+[27-Nov-2025 23:58:13 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[27-Nov-2025 23:58:13 America/Guatemala] 📌 Producto a descontar - ID: 11, Cantidad: 3
+[27-Nov-2025 23:58:13 America/Guatemala] 📦 Producto encontrado: {"stock":9,"name":"C\u00e1mara Lenovo Full"}
+[27-Nov-2025 23:58:13 America/Guatemala] 📦 Stock actual: 9
+[27-Nov-2025 23:58:13 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 11
+[27-Nov-2025 23:58:13 America/Guatemala] ✅ Stock descontado exitosamente
+[27-Nov-2025 23:58:13 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[27-Nov-2025 23:58:13 America/Guatemala] Item completo: {"id":59,"quote_id":19,"product_id":8,"description":"Monitor LED 24","quantity":3,"unit_price":"150.00","total":"450.00","added_after_invoice":0,"created_at":"2025-11-21 18:21:18"}
+[27-Nov-2025 23:58:13 America/Guatemala] Product ID existe: SI
+[27-Nov-2025 23:58:13 America/Guatemala] Product ID valor: 8
+[27-Nov-2025 23:58:13 America/Guatemala] Product ID es truthy: SI
+[27-Nov-2025 23:58:13 America/Guatemala] Quantity: 3
+[27-Nov-2025 23:58:13 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[27-Nov-2025 23:58:13 America/Guatemala] 📌 Producto a descontar - ID: 8, Cantidad: 3
+[27-Nov-2025 23:58:13 America/Guatemala] 📦 Producto encontrado: {"stock":14,"name":"Monitor LED 24&quot;"}
+[27-Nov-2025 23:58:13 America/Guatemala] 📦 Stock actual: 14
+[27-Nov-2025 23:58:13 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 8
+[27-Nov-2025 23:58:13 America/Guatemala] ✅ Stock descontado exitosamente
+[27-Nov-2025 23:58:13 America/Guatemala] 💾 Generando número de factura...
+[27-Nov-2025 23:58:13 America/Guatemala] 📄 Número de factura: FAC-0052
+[27-Nov-2025 23:58:13 America/Guatemala] 💰 Total: 660.00
+[27-Nov-2025 23:58:13 America/Guatemala] 📋 Work messages a guardar: NULL
+[27-Nov-2025 23:58:13 America/Guatemala] ✅ Factura creada con ID: 63
+[27-Nov-2025 23:58:13 America/Guatemala] ✅ Transacción COMMIT exitoso
+[27-Nov-2025 23:58:13 America/Guatemala] 🎉 Factura generada exitosamente
+[27-Nov-2025 23:58:13 America/Guatemala] =================================
+[28-Nov-2025 10:34:17 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:34:17 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:34:20 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:34:20 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:34:27 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:34:27 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:34:30 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:34:30 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:34:39 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:34:39 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:34:42 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:34:42 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:35:03 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:35:03 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:35:03 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:35:03 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:13 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:13 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:14 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:14 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:14 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:14 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:15 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:15 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:15 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:15 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:15 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:15 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:15 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:15 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:15 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:15 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:15 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:15 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:16 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:16 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:17 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:17 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 10:36:28 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [1130] Host 'localhost' is not allowed to connect to this MariaDB server
+[28-Nov-2025 10:36:28 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[28-Nov-2025 16:07:56 America/Guatemala] Error contando productos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[28-Nov-2025 16:07:56 America/Guatemala] Error contando clientes: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[28-Nov-2025 16:07:56 America/Guatemala] Error contando cotizaciones: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[28-Nov-2025 16:07:56 America/Guatemala] Error contando stock bajo: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[28-Nov-2025 16:07:56 America/Guatemala] Error contando combos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[28-Nov-2025 16:07:56 America/Guatemala] Error contando facturas: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[28-Nov-2025 16:08:05 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[28-Nov-2025 16:08:05 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[29-Nov-2025 12:29:34 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[29-Nov-2025 12:29:34 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[29-Nov-2025 12:31:00 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[29-Nov-2025 12:31:00 America/Guatemala] 📦 Input recibido: {"quote_id":21,"is_combo":false,"work_messages":"[\"KBHI\",\"BUUGUG\"]"}
+[29-Nov-2025 12:31:00 America/Guatemala] 📋 Work messages recibidos: ["KBHI","BUUGUG"]
+[29-Nov-2025 12:31:00 America/Guatemala] 🔍 Quote ID: 21
+[29-Nov-2025 12:31:00 America/Guatemala] 🔍 Is Combo: NO (false)
+[29-Nov-2025 12:31:00 America/Guatemala] 🔍 Is Combo raw: false
+[29-Nov-2025 12:31:00 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[29-Nov-2025 12:31:00 America/Guatemala] 📊 Quote obtenida: {"id":21,"number":"MA-0016","type":"MA","client_id":3,"total":"645.00","status":"pending","created_at":"2025-11-23 17:19:16","updated_at":"2025-11-26 16:35:38","work_messages":null}
+[29-Nov-2025 12:31:00 America/Guatemala] 🔄 Transacción iniciada
+[29-Nov-2025 12:31:00 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[29-Nov-2025 12:31:00 America/Guatemala] === DEBUG ITEMS ===
+[29-Nov-2025 12:31:00 America/Guatemala] Total items obtenidos: 1
+[29-Nov-2025 12:31:00 America/Guatemala] Items completos: [{"id":66,"quote_id":21,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":3,"unit_price":"215.00","total":"645.00","added_after_invoice":0,"created_at":"2025-11-23 17:19:16"}]
+[29-Nov-2025 12:31:00 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[29-Nov-2025 12:31:00 America/Guatemala] Item completo: {"id":66,"quote_id":21,"product_id":12,"description":"Bocina Speaker Bluetooth","quantity":3,"unit_price":"215.00","total":"645.00","added_after_invoice":0,"created_at":"2025-11-23 17:19:16"}
+[29-Nov-2025 12:31:00 America/Guatemala] Product ID existe: SI
+[29-Nov-2025 12:31:00 America/Guatemala] Product ID valor: 12
+[29-Nov-2025 12:31:00 America/Guatemala] Product ID es truthy: SI
+[29-Nov-2025 12:31:00 America/Guatemala] Quantity: 3
+[29-Nov-2025 12:31:00 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[29-Nov-2025 12:31:00 America/Guatemala] 📌 Producto a descontar - ID: 12, Cantidad: 3
+[29-Nov-2025 12:31:00 America/Guatemala] 📦 Producto encontrado: {"stock":9,"name":"Bocina Speaker Bluetooth"}
+[29-Nov-2025 12:31:00 America/Guatemala] 📦 Stock actual: 9
+[29-Nov-2025 12:31:00 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 12
+[29-Nov-2025 12:31:00 America/Guatemala] ✅ Stock descontado exitosamente
+[29-Nov-2025 12:31:00 America/Guatemala] 💾 Generando número de factura...
+[29-Nov-2025 12:31:00 America/Guatemala] 📄 Número de factura: FAC-0052
+[29-Nov-2025 12:31:00 America/Guatemala] 💰 Total: 645.00
+[29-Nov-2025 12:31:00 America/Guatemala] 📋 Work messages a guardar: ["KBHI","BUUGUG"]
+[29-Nov-2025 12:31:00 America/Guatemala] ✅ Factura creada con ID: 63
+[29-Nov-2025 12:31:00 America/Guatemala] ✅ Transacción COMMIT exitoso
+[29-Nov-2025 12:31:00 America/Guatemala] 🎉 Factura generada exitosamente
+[29-Nov-2025 12:31:00 America/Guatemala] =================================
+[01-Dec-2025 19:17:19 America/Guatemala] 📋 Mensajes a preservar: ["KBHI","BUUGUG"]
+[01-Dec-2025 19:17:24 America/Guatemala] 📋 Mensajes a preservar: ["Servicio de computación general","Mantenimiento de equipo ","Instalación eléctrica "]
+[01-Dec-2025 19:17:27 America/Guatemala] 📋 Mensajes a preservar: NULL
+[01-Dec-2025 19:17:30 America/Guatemala] 📋 Mensajes a preservar: NULL
+[01-Dec-2025 19:30:41 America/Guatemala] Error en import.php: There is no active transaction
+[01-Dec-2025 19:31:54 America/Guatemala] Error en import.php: There is no active transaction
+[01-Dec-2025 19:47:16 America/Guatemala] Error en import.php: There is no active transaction
+[01-Dec-2025 20:08:18 America/Guatemala] Error en import.php: There is no active transaction
+[01-Dec-2025 22:25:46 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Dec-2025 22:25:46 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[01-Dec-2025 22:25:50 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[01-Dec-2025 22:25:50 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[02-Dec-2025 22:04:14 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2006] MySQL server has gone away
+[02-Dec-2025 22:04:14 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[02-Dec-2025 22:04:18 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[02-Dec-2025 22:04:18 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[02-Dec-2025 22:40:41 America/Guatemala] 📋 Mensajes a preservar: ["KBHI","BUUGUG"]
+[02-Dec-2025 22:40:45 America/Guatemala] 📋 Mensajes a preservar: ["Servicio de computación general","Mantenimiento de equipo ","Instalación eléctrica "]
+[02-Dec-2025 22:40:50 America/Guatemala] 📋 Mensajes a preservar: NULL
+[02-Dec-2025 22:40:54 America/Guatemala] 📋 Mensajes a preservar: NULL
+[02-Dec-2025 22:45:30 America/Guatemala] 📋 Mensajes a preservar: NULL
+[02-Dec-2025 22:45:35 America/Guatemala] 📋 Mensajes a preservar: NULL
+[02-Dec-2025 22:46:00 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[02-Dec-2025 22:46:05 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[02-Dec-2025 22:52:34 America/Guatemala] 📋 Mensajes a preservar: NULL
+[02-Dec-2025 22:52:53 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[02-Dec-2025 22:53:29 America/Guatemala] 📋 Mensajes a preservar: NULL
+[02-Dec-2025 22:55:07 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[02-Dec-2025 22:55:07 America/Guatemala] 📦 Input recibido: {"quote_id":5,"is_combo":true,"work_messages":null}
+[02-Dec-2025 22:55:07 America/Guatemala] 📋 Work messages recibidos: NULL
+[02-Dec-2025 22:55:07 America/Guatemala] 🔍 Quote ID: 5
+[02-Dec-2025 22:55:07 America/Guatemala] 🔍 Is Combo: SI (true)
+[02-Dec-2025 22:55:07 America/Guatemala] 🔍 Is Combo raw: true
+[02-Dec-2025 22:55:07 America/Guatemala] 📋 Obteniendo datos de COMBO_QUOTES
+[02-Dec-2025 22:55:07 America/Guatemala] 📊 Quote obtenida: {"id":5,"number":"COMBO-0005","combo_id":12,"client_id":9,"total":"3000.00","status":"pending","created_at":"2025-12-02 22:54:57","updated_at":"2025-12-02 22:54:57","work_messages":null,"type":"COMBO"}
+[02-Dec-2025 22:55:07 America/Guatemala] 🔄 Transacción iniciada
+[02-Dec-2025 22:55:07 America/Guatemala] 📦 Obteniendo items de COMBO_QUOTE_ITEMS
+[02-Dec-2025 22:55:07 America/Guatemala] === DEBUG ITEMS ===
+[02-Dec-2025 22:55:07 America/Guatemala] Total items obtenidos: 1
+[02-Dec-2025 22:55:07 America/Guatemala] Items completos: [{"id":8,"combo_quote_id":5,"product_id":14,"description":"LAPTOP DELL","quantity":1,"unit_price":"3000.00","total":"3000.00","created_at":"2025-12-02 22:54:57"}]
+[02-Dec-2025 22:55:07 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[02-Dec-2025 22:55:07 America/Guatemala] Item completo: {"id":8,"combo_quote_id":5,"product_id":14,"description":"LAPTOP DELL","quantity":1,"unit_price":"3000.00","total":"3000.00","created_at":"2025-12-02 22:54:57"}
+[02-Dec-2025 22:55:07 America/Guatemala] Product ID existe: SI
+[02-Dec-2025 22:55:07 America/Guatemala] Product ID valor: 14
+[02-Dec-2025 22:55:07 America/Guatemala] Product ID es truthy: SI
+[02-Dec-2025 22:55:07 America/Guatemala] Quantity: 1
+[02-Dec-2025 22:55:07 America/Guatemala] ✅ ENTRANDO al bloque de descuento de stock
+[02-Dec-2025 22:55:07 America/Guatemala] 📌 Producto a descontar - ID: 14, Cantidad: 1
+[02-Dec-2025 22:55:07 America/Guatemala] 📦 Producto encontrado: {"stock":10,"name":"LAPTOP DELL"}
+[02-Dec-2025 22:55:07 America/Guatemala] 📦 Stock actual: 10
+[02-Dec-2025 22:55:07 America/Guatemala] 🔻 Descontando 1 unidades del producto ID 14
+[02-Dec-2025 22:55:07 America/Guatemala] ✅ Stock descontado exitosamente
+[02-Dec-2025 22:55:07 America/Guatemala] 💾 Generando número de factura...
+[02-Dec-2025 22:55:07 America/Guatemala] 📄 Número de factura: FAC-0056
+[02-Dec-2025 22:55:07 America/Guatemala] 💰 Total: 3000.00
+[02-Dec-2025 22:55:07 America/Guatemala] 📋 Work messages a guardar: NULL
+[02-Dec-2025 22:55:07 America/Guatemala] ✅ Factura creada con ID: 67
+[02-Dec-2025 22:55:07 America/Guatemala] ✅ Transacción COMMIT exitoso
+[02-Dec-2025 22:55:07 America/Guatemala] 🎉 Factura generada exitosamente
+[02-Dec-2025 22:55:07 America/Guatemala] =================================
+[02-Dec-2025 22:55:27 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[02-Dec-2025 22:55:36 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[03-Dec-2025 16:33:32 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[03-Dec-2025 16:33:32 America/Guatemala] 📦 Input recibido: {"quote_id":23,"is_combo":false,"work_messages":"[\"Andamos haciendo pruebas pa\",\"Que lo que\"]"}
+[03-Dec-2025 16:33:32 America/Guatemala] 📋 Work messages recibidos: ["Andamos haciendo pruebas pa","Que lo que"]
+[03-Dec-2025 16:33:32 America/Guatemala] 🔍 Quote ID: 23
+[03-Dec-2025 16:33:32 America/Guatemala] 🔍 Is Combo: NO (false)
+[03-Dec-2025 16:33:32 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[03-Dec-2025 16:33:32 America/Guatemala] 📊 Quote obtenida: {"id":23,"number":"MA-0017","type":"MA","client_id":10,"total":"9090.00","status":"pending","created_at":"2025-12-03 16:33:04","updated_at":"2025-12-03 16:33:04","work_messages":null}
+[03-Dec-2025 16:33:32 America/Guatemala] 🔄 Transacción iniciada
+[03-Dec-2025 16:33:32 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[03-Dec-2025 16:33:32 America/Guatemala] === DEBUG ITEMS ===
+[03-Dec-2025 16:33:32 America/Guatemala] Total items obtenidos: 2
+[03-Dec-2025 16:33:32 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[03-Dec-2025 16:33:32 America/Guatemala] 📌 Producto a descontar - ID: 14, Cantidad: 3
+[03-Dec-2025 16:33:32 America/Guatemala] 📦 Stock actual: 9
+[03-Dec-2025 16:33:32 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 14
+[03-Dec-2025 16:33:32 America/Guatemala] ✅ Stock descontado exitosamente
+[03-Dec-2025 16:33:32 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[03-Dec-2025 16:33:32 America/Guatemala] 📌 Producto a descontar - ID: 15, Cantidad: 3
+[03-Dec-2025 16:33:32 America/Guatemala] 📦 Stock actual: 9
+[03-Dec-2025 16:33:32 America/Guatemala] 🔻 Descontando 3 unidades del producto ID 15
+[03-Dec-2025 16:33:32 America/Guatemala] ✅ Stock descontado exitosamente
+[03-Dec-2025 16:33:32 America/Guatemala] 💾 Generando número de factura...
+[03-Dec-2025 16:33:32 America/Guatemala] 📄 Número de factura: FAC-0057
+[03-Dec-2025 16:33:32 America/Guatemala] 💰 Total: 9090.00
+[03-Dec-2025 16:33:32 America/Guatemala] 📋 Work messages a guardar: ["Andamos haciendo pruebas pa","Que lo que"]
+[03-Dec-2025 16:33:32 America/Guatemala] ✅ Factura creada con ID: 68
+[03-Dec-2025 16:33:32 America/Guatemala] ✅ Transacción COMMIT exitoso
+[03-Dec-2025 16:33:32 America/Guatemala] 🎉 Factura generada exitosamente
+[03-Dec-2025 16:33:32 America/Guatemala] =================================
+[03-Dec-2025 16:35:42 America/Guatemala] ✅ Factura FAC-0057 eliminada permanentemente (sin restauración)
+[03-Dec-2025 16:39:12 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[03-Dec-2025 16:39:12 America/Guatemala] 📦 Input recibido: {"quote_id":24,"is_combo":false,"work_messages":null}
+[03-Dec-2025 16:39:12 America/Guatemala] 📋 Work messages recibidos: NULL
+[03-Dec-2025 16:39:12 America/Guatemala] 🔍 Quote ID: 24
+[03-Dec-2025 16:39:12 America/Guatemala] 🔍 Is Combo: NO (false)
+[03-Dec-2025 16:39:12 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[03-Dec-2025 16:39:12 America/Guatemala] 📊 Quote obtenida: {"id":24,"number":"MA-0018","type":"MA","client_id":9,"total":"60.00","status":"pending","created_at":"2025-12-03 16:39:06","updated_at":"2025-12-03 16:39:06","work_messages":null}
+[03-Dec-2025 16:39:12 America/Guatemala] 🔄 Transacción iniciada
+[03-Dec-2025 16:39:12 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[03-Dec-2025 16:39:12 America/Guatemala] === DEBUG ITEMS ===
+[03-Dec-2025 16:39:12 America/Guatemala] Total items obtenidos: 1
+[03-Dec-2025 16:39:12 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[03-Dec-2025 16:39:12 America/Guatemala] 📌 Producto a descontar - ID: 15, Cantidad: 2
+[03-Dec-2025 16:39:12 America/Guatemala] 📦 Stock actual: 6
+[03-Dec-2025 16:39:12 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 15
+[03-Dec-2025 16:39:12 America/Guatemala] ✅ Stock descontado exitosamente
+[03-Dec-2025 16:39:12 America/Guatemala] 💾 Generando número de factura...
+[03-Dec-2025 16:39:12 America/Guatemala] 📄 Número de factura: FAC-0058
+[03-Dec-2025 16:39:12 America/Guatemala] 💰 Total: 60.00
+[03-Dec-2025 16:39:12 America/Guatemala] 📋 Work messages a guardar: NULL
+[03-Dec-2025 16:39:12 America/Guatemala] ✅ Factura creada con ID: 69
+[03-Dec-2025 16:39:12 America/Guatemala] ✅ Transacción COMMIT exitoso
+[03-Dec-2025 16:39:12 America/Guatemala] 🎉 Factura generada exitosamente
+[03-Dec-2025 16:39:12 America/Guatemala] =================================
+[03-Dec-2025 16:50:41 America/Guatemala] ✅ Factura FAC-0058 eliminada permanentemente (sin restauración)
+[03-Dec-2025 16:51:01 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[03-Dec-2025 16:51:01 America/Guatemala] 📦 Input recibido: {"quote_id":25,"is_combo":false,"work_messages":null}
+[03-Dec-2025 16:51:01 America/Guatemala] 📋 Work messages recibidos: NULL
+[03-Dec-2025 16:51:01 America/Guatemala] 🔍 Quote ID: 25
+[03-Dec-2025 16:51:01 America/Guatemala] 🔍 Is Combo: NO (false)
+[03-Dec-2025 16:51:01 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[03-Dec-2025 16:51:01 America/Guatemala] 📊 Quote obtenida: {"id":25,"number":"MA-0019","type":"MA","client_id":10,"total":"32.00","status":"pending","created_at":"2025-12-03 16:50:30","updated_at":"2025-12-03 16:50:30","work_messages":null}
+[03-Dec-2025 16:51:01 America/Guatemala] 🔄 Transacción iniciada
+[03-Dec-2025 16:51:01 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[03-Dec-2025 16:51:01 America/Guatemala] === DEBUG ITEMS ===
+[03-Dec-2025 16:51:01 America/Guatemala] Total items obtenidos: 1
+[03-Dec-2025 16:51:01 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[03-Dec-2025 16:51:01 America/Guatemala] 📌 Producto a descontar - ID: 16, Cantidad: 2
+[03-Dec-2025 16:51:01 America/Guatemala] 📦 Stock actual: 6
+[03-Dec-2025 16:51:01 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 16
+[03-Dec-2025 16:51:01 America/Guatemala] ✅ Stock descontado exitosamente
+[03-Dec-2025 16:51:01 America/Guatemala] 💾 Generando número de factura...
+[03-Dec-2025 16:51:01 America/Guatemala] 📄 Número de factura: FAC-0059
+[03-Dec-2025 16:51:01 America/Guatemala] 💰 Total: 32.00
+[03-Dec-2025 16:51:01 America/Guatemala] 📋 Work messages a guardar: NULL
+[03-Dec-2025 16:51:01 America/Guatemala] ✅ Factura creada con ID: 70
+[03-Dec-2025 16:51:01 America/Guatemala] ✅ Transacción COMMIT exitoso
+[03-Dec-2025 16:51:01 America/Guatemala] 🎉 Factura generada exitosamente
+[03-Dec-2025 16:51:01 America/Guatemala] =================================
+[03-Dec-2025 16:51:13 America/Guatemala] ✅ Factura FAC-0059 eliminada permanentemente (sin restauración)
+[03-Dec-2025 18:01:09 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[03-Dec-2025 18:01:32 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[03-Dec-2025 18:03:39 America/Guatemala] ✅ Factura FAC-0056 eliminada permanentemente (sin restauración)
+[03-Dec-2025 18:03:47 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[03-Dec-2025 18:04:04 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[03-Dec-2025 18:13:08 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[03-Dec-2025 18:38:19 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[03-Dec-2025 18:38:35 America/Guatemala] Error en combos.php: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gestion_empresarial`.`combo_quotes`, CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`))
+[03-Dec-2025 18:48:34 America/Guatemala] ⚠️ Combo 12 tiene 1 cotizaciones facturadas, desasociando...
+[03-Dec-2025 19:00:14 America/Guatemala] ⚠️ Combo 12 tiene 1 cotizaciones facturadas, desasociando...
+[03-Dec-2025 19:06:30 America/Guatemala] ✅ Combo 12 eliminado exitosamente
+[03-Dec-2025 22:56:48 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[03-Dec-2025 22:56:48 America/Guatemala] 📦 Input recibido: {"quote_id":26,"is_combo":false,"work_messages":null}
+[03-Dec-2025 22:56:48 America/Guatemala] 📋 Work messages recibidos: NULL
+[03-Dec-2025 22:56:48 America/Guatemala] 🔍 Quote ID: 26
+[03-Dec-2025 22:56:48 America/Guatemala] 🔍 Is Combo: NO (false)
+[03-Dec-2025 22:56:48 America/Guatemala] 📋 Obteniendo datos de QUOTES
+[03-Dec-2025 22:56:48 America/Guatemala] 📊 Quote obtenida: {"id":26,"number":"MO-0007","type":"MO","client_id":9,"total":"125.00","status":"pending","created_at":"2025-12-03 22:56:41","updated_at":"2025-12-03 22:56:41","work_messages":null}
+[03-Dec-2025 22:56:48 America/Guatemala] 🔄 Transacción iniciada
+[03-Dec-2025 22:56:48 America/Guatemala] 📦 Obteniendo items de QUOTE_ITEMS
+[03-Dec-2025 22:56:48 America/Guatemala] === DEBUG ITEMS ===
+[03-Dec-2025 22:56:48 America/Guatemala] Total items obtenidos: 1
+[03-Dec-2025 22:56:48 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[03-Dec-2025 22:56:48 America/Guatemala] 📌 Producto a descontar - ID: 18, Cantidad: 5
+[03-Dec-2025 22:56:48 America/Guatemala] 📦 Stock actual: 15
+[03-Dec-2025 22:56:48 America/Guatemala] 🔻 Descontando 5 unidades del producto ID 18
+[03-Dec-2025 22:56:48 America/Guatemala] ✅ Stock descontado exitosamente
+[03-Dec-2025 22:56:48 America/Guatemala] 💾 Generando número de factura...
+[03-Dec-2025 22:56:48 America/Guatemala] 📄 Número de factura: FAC-0060
+[03-Dec-2025 22:56:48 America/Guatemala] 💰 Total: 125.00
+[03-Dec-2025 22:56:48 America/Guatemala] 📋 Work messages a guardar: NULL
+[03-Dec-2025 22:56:48 America/Guatemala] ✅ Factura creada con ID: 71
+[03-Dec-2025 22:56:48 America/Guatemala] ✅ Transacción COMMIT exitoso
+[03-Dec-2025 22:56:48 America/Guatemala] 🎉 Factura generada exitosamente
+[03-Dec-2025 22:56:48 America/Guatemala] =================================
+[03-Dec-2025 22:57:14 America/Guatemala] === INICIANDO DELETE DE FACTURA ===
+[03-Dec-2025 22:57:14 America/Guatemala] Factura ID: 71
+[03-Dec-2025 22:57:14 America/Guatemala] Factura Number: FAC-0060
+[03-Dec-2025 22:57:14 America/Guatemala] Quote ID: 26
+[03-Dec-2025 22:57:14 America/Guatemala] Is Combo: NO (0)
+[03-Dec-2025 22:57:14 America/Guatemala] Valor is_combo en BD: 0
+[03-Dec-2025 22:57:14 America/Guatemala] 📄 [NORMAL] Actualizando quote 26 a PENDING
+[03-Dec-2025 22:57:14 America/Guatemala] 📋 Estado ANTES: invoiced (número: MO-0007)
+[03-Dec-2025 22:57:14 America/Guatemala] ✅ Filas afectadas en quotes: 1
+[03-Dec-2025 22:57:14 America/Guatemala] 📋 Estado DESPUÉS: pending
+[03-Dec-2025 22:57:14 America/Guatemala] 🗑️ Eliminando factura FAC-0060
+[03-Dec-2025 22:57:14 America/Guatemala] ✅✅✅ COMMIT EXITOSO - Factura eliminada, cotización a pending ✅✅✅
+[03-Dec-2025 22:57:14 America/Guatemala] === FIN DELETE DE FACTURA ===
+[03-Dec-2025 22:58:12 America/Guatemala] POST combos.php - Input recibido: {"id":null,"name":"Combo B\u00e1sico 2 C\u00e1maras","camera_count":2,"price":280,"products":[{"product_id":20,"quantity":2},{"product_id":19,"quantity":2}]}
+[03-Dec-2025 22:59:02 America/Guatemala] 📄 POST REQUEST RECIBIDO
+[03-Dec-2025 22:59:02 America/Guatemala] 📦 Input recibido: {"quote_id":6,"is_combo":true,"work_messages":null}
+[03-Dec-2025 22:59:02 America/Guatemala] 📋 Work messages recibidos: NULL
+[03-Dec-2025 22:59:02 America/Guatemala] 🔍 Quote ID: 6
+[03-Dec-2025 22:59:02 America/Guatemala] 🔍 Is Combo: SI (true)
+[03-Dec-2025 22:59:02 America/Guatemala] 📋 Obteniendo datos de COMBO_QUOTES
+[03-Dec-2025 22:59:02 America/Guatemala] 📊 Quote obtenida: {"id":6,"number":"COMBO-0006","combo_id":13,"client_id":10,"total":"280.00","status":"pending","created_at":"2025-12-03 22:58:48","updated_at":"2025-12-03 22:58:48","work_messages":null,"type":"COMBO"}
+[03-Dec-2025 22:59:02 America/Guatemala] 🔄 Transacción iniciada
+[03-Dec-2025 22:59:02 America/Guatemala] 📦 Obteniendo items de COMBO_QUOTE_ITEMS
+[03-Dec-2025 22:59:02 America/Guatemala] === DEBUG ITEMS ===
+[03-Dec-2025 22:59:02 America/Guatemala] Total items obtenidos: 2
+[03-Dec-2025 22:59:02 America/Guatemala] --- PROCESANDO ITEM #1 ---
+[03-Dec-2025 22:59:02 America/Guatemala] 📌 Producto a descontar - ID: 20, Cantidad: 2
+[03-Dec-2025 22:59:02 America/Guatemala] 📦 Stock actual: 17
+[03-Dec-2025 22:59:02 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 20
+[03-Dec-2025 22:59:02 America/Guatemala] ✅ Stock descontado exitosamente
+[03-Dec-2025 22:59:02 America/Guatemala] --- PROCESANDO ITEM #2 ---
+[03-Dec-2025 22:59:02 America/Guatemala] 📌 Producto a descontar - ID: 19, Cantidad: 2
+[03-Dec-2025 22:59:02 America/Guatemala] 📦 Stock actual: 5
+[03-Dec-2025 22:59:02 America/Guatemala] 🔻 Descontando 2 unidades del producto ID 19
+[03-Dec-2025 22:59:02 America/Guatemala] ✅ Stock descontado exitosamente
+[03-Dec-2025 22:59:02 America/Guatemala] 💾 Generando número de factura...
+[03-Dec-2025 22:59:02 America/Guatemala] 📄 Número de factura: FAC-0061
+[03-Dec-2025 22:59:02 America/Guatemala] 💰 Total: 280.00
+[03-Dec-2025 22:59:02 America/Guatemala] 📋 Work messages a guardar: NULL
+[03-Dec-2025 22:59:02 America/Guatemala] ✅ Factura creada con ID: 72
+[03-Dec-2025 22:59:02 America/Guatemala] ✅ Transacción COMMIT exitoso
+[03-Dec-2025 22:59:02 America/Guatemala] 🎉 Factura generada exitosamente
+[03-Dec-2025 22:59:02 America/Guatemala] =================================
+[03-Dec-2025 22:59:11 America/Guatemala] === INICIANDO DELETE DE FACTURA ===
+[03-Dec-2025 22:59:11 America/Guatemala] Factura ID: 72
+[03-Dec-2025 22:59:11 America/Guatemala] Factura Number: FAC-0061
+[03-Dec-2025 22:59:11 America/Guatemala] Quote ID: 6
+[03-Dec-2025 22:59:11 America/Guatemala] Is Combo: SI (1)
+[03-Dec-2025 22:59:11 America/Guatemala] Valor is_combo en BD: 1
+[03-Dec-2025 22:59:11 America/Guatemala] 📦 [COMBO] Actualizando combo_quote 6 a PENDING
+[03-Dec-2025 22:59:11 America/Guatemala] 📋 Estado ANTES: invoiced (número: COMBO-0006)
+[03-Dec-2025 22:59:11 America/Guatemala] ✅ Filas afectadas en combo_quotes: 1
+[03-Dec-2025 22:59:11 America/Guatemala] 📋 Estado DESPUÉS: pending
+[03-Dec-2025 22:59:11 America/Guatemala] 🗑️ Eliminando factura FAC-0061
+[03-Dec-2025 22:59:11 America/Guatemala] ✅✅✅ COMMIT EXITOSO - Factura eliminada, cotización a pending ✅✅✅
+[03-Dec-2025 22:59:11 America/Guatemala] === FIN DELETE DE FACTURA ===
+[03-Dec-2025 23:09:43 America/Guatemala] Error en invoices.php: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_empresarial.invoice_items' doesn't exist
+[03-Dec-2025 23:09:51 America/Guatemala] Error en invoices.php: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_empresarial.invoice_items' doesn't exist
+[03-Dec-2025 23:14:15 America/Guatemala] Error creando factura: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'items' in 'field list'
+[03-Dec-2025 23:14:15 America/Guatemala] Error en invoices.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'items' in 'field list'
+[04-Dec-2025 22:31:57 America/Guatemala] Error creando factura: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'items' in 'field list'
+[04-Dec-2025 22:31:57 America/Guatemala] Error en invoices.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'items' in 'field list'
+[05-Dec-2025 11:32:10 America/Guatemala] Error contando clientes: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:32:10 America/Guatemala] Error contando cotizaciones: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:32:10 America/Guatemala] Error contando stock bajo: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:32:10 America/Guatemala] Error contando combos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:32:10 America/Guatemala] Error contando facturas: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:32:14 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[05-Dec-2025 11:32:14 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[05-Dec-2025 11:32:45 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2006] MySQL server has gone away
+[05-Dec-2025 11:32:45 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[05-Dec-2025 11:34:30 America/Guatemala] Error contando productos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:34:30 America/Guatemala] Error contando clientes: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:34:30 America/Guatemala] Error contando cotizaciones: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:34:30 America/Guatemala] Error contando stock bajo: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:34:30 America/Guatemala] Error contando combos: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 11:34:30 America/Guatemala] Error contando facturas: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+[05-Dec-2025 12:14:42 America/Guatemala] POST combos.php - Input recibido: {"id":null,"name":"DELLBA","camera_count":2,"price":9000,"products":[{"product_id":14,"quantity":3}]}
+[05-Dec-2025 22:20:39 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2006] MySQL server has gone away
+[05-Dec-2025 22:20:39 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[06-Dec-2025 14:48:13 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2006] MySQL server has gone away
+[06-Dec-2025 14:48:13 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[06-Dec-2025 14:48:20 America/Guatemala] Error de conexión DB: SQLSTATE[HY000] [2006] MySQL server has gone away
+[06-Dec-2025 14:48:20 America/Guatemala] Error al obtener DB: Error de conexión a la base de datos
+[06-Dec-2025 15:52:34 America/Guatemala] POST combos.php - Input recibido: {"id":null,"name":"Combo Est\u00e1ndar 4 C\u00e1maras","camera_count":4,"price":250,"products":[{"product_id":22,"quantity":1},{"product_id":20,"quantity":1},{"product_id":21,"quantity":1},{"product_id":19,"quantity":1}]}
+[08-Dec-2025 18:18:03 America/Guatemala] POST combos.php - Input recibido: {"id":null,"name":"Bocinas insanisimas","camera_count":2,"price":3600,"products":[{"product_id":26,"quantity":4},{"product_id":23,"quantity":2}]}
+[08-Dec-2025 22:56:17 America/Guatemala] 📊 Total cotizaciones: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 22:56:18 America/Guatemala] 📊 Total cotizaciones: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 22:56:42 America/Guatemala] 📊 Total cotizaciones: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 22:56:53 America/Guatemala] 📊 Total cotizaciones: 2 (Normales: 1, Combos: 1)
+[08-Dec-2025 22:56:58 America/Guatemala] 📊 Total cotizaciones: 2 (Normales: 1, Combos: 1)
+[08-Dec-2025 22:57:16 America/Guatemala] 📊 Total cotizaciones: 2 (Normales: 1, Combos: 1)
+[08-Dec-2025 22:57:32 America/Guatemala] 📊 Total cotizaciones: 2 (Normales: 1, Combos: 1)
+[08-Dec-2025 22:57:38 America/Guatemala] 📊 Total cotizaciones: 2 (Normales: 1, Combos: 1)
+[08-Dec-2025 22:57:40 America/Guatemala] 📊 Total cotizaciones: 2 (Normales: 1, Combos: 1)
+[08-Dec-2025 22:58:14 America/Guatemala] 📊 Total cotizaciones: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 22:58:23 America/Guatemala] 📊 Total cotizaciones: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:02:20 America/Guatemala] 📊 Total cotizaciones: 1 (Normales: 0, Combos: 1)
+[08-Dec-2025 23:02:24 America/Guatemala] 📊 Total cotizaciones: 1 (Normales: 0, Combos: 1)
+[08-Dec-2025 23:02:28 America/Guatemala] 📊 Total cotizaciones: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:02:30 America/Guatemala] 📊 Total cotizaciones: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:16:17 America/Guatemala] 📊 Total cotizaciones: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:16:18 America/Guatemala] 📊 Total cotizaciones: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:19:08 America/Guatemala] 📊 Total cotizaciones: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:21:53 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:21:56 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:22:52 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 0, Combos: 1)
+[08-Dec-2025 23:22:55 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 0, Combos: 1)
+[08-Dec-2025 23:23:02 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:23:04 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:23:15 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 0, Combos: 1)
+[08-Dec-2025 23:23:18 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 0, Combos: 1)
+[08-Dec-2025 23:23:26 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:23:30 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:24:03 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:24:15 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:24:17 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:24:21 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:24:29 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:25:26 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:25:52 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:26:00 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:26:06 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:26:23 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:32:09 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:32:10 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:33:30 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:33:31 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:33:43 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 1, Combos: 0)
+[08-Dec-2025 23:33:49 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:33:52 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:34:10 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 0, Combos: 1)
+[08-Dec-2025 23:34:13 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 1 (Normales: 0, Combos: 1)
+[08-Dec-2025 23:34:20 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:34:23 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[08-Dec-2025 23:34:42 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:39:38 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:39:39 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:46:00 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:46:00 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:46:46 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:46:47 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:53:32 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:53:33 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:54:34 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:54:35 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:59:16 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:59:16 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:59:21 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:59:22 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:59:46 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 15:59:46 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:06:56 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:06:57 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:07:11 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:07:12 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:10:56 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:10:57 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:11:13 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:11:20 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:11:43 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 16:11:44 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 20:25:47 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 20:25:48 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[09-Dec-2025 20:27:13 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[10-Dec-2025 10:10:07 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)
+[10-Dec-2025 10:10:08 America/Guatemala] 📊 Total cotizaciones PENDIENTES: 0 (Normales: 0, Combos: 0)

@@ -1,0 +1,687 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: localhost:3307
+-- Tiempo de generación: 10-12-2025 a las 17:13:32
+-- Versión del servidor: 10.4.32-MariaDB
+-- Versión de PHP: 8.0.30
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de datos: `gestion_empresarial`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `clients`
+--
+
+CREATE TABLE `clients` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `last_name` varchar(100) NOT NULL,
+  `nit` int(11) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `address` text DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `clients`
+--
+
+INSERT INTO `clients` (`id`, `name`, `last_name`, `nit`, `phone`, `email`, `address`, `created_at`, `updated_at`) VALUES
+(8, 'Abner Anastasio', 'Cascaduro', 12345667, '12346789', 'mariguanalife@email.com', 'Avenida Reforma 321, Zona 11', '2025-12-03 00:48:46', '2025-12-03 00:48:46'),
+(9, 'Benedicto Abner', 'vergandino', 2147483647, '12346789', 'mariguanalife@email.com', 'Avenida Reforma 321, Zona 11', '2025-12-03 01:02:59', '2025-12-03 01:02:59');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `combos`
+--
+
+CREATE TABLE `combos` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `camera_count` int(11) NOT NULL,
+  `price` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `image` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `combos`
+--
+
+INSERT INTO `combos` (`id`, `name`, `camera_count`, `price`, `image`, `created_at`, `updated_at`) VALUES
+(12, 'SEGURITY XD', 32, 3000.00, NULL, '2025-12-03 00:51:29', '2025-12-03 00:51:29');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `combo_products`
+--
+
+CREATE TABLE `combo_products` (
+  `id` int(11) NOT NULL,
+  `combo_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `quantity` int(11) NOT NULL DEFAULT 1,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `combo_products`
+--
+
+INSERT INTO `combo_products` (`id`, `combo_id`, `product_id`, `quantity`, `created_at`) VALUES
+(43, 12, 14, 1, '2025-12-03 00:52:35');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `combo_quotes`
+--
+
+CREATE TABLE `combo_quotes` (
+  `id` int(11) NOT NULL,
+  `number` varchar(20) NOT NULL,
+  `combo_id` int(11) NOT NULL,
+  `client_id` int(11) NOT NULL,
+  `total` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `status` enum('pending','invoiced') NOT NULL DEFAULT 'pending',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `work_messages` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`work_messages`))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `combo_quotes`
+--
+
+INSERT INTO `combo_quotes` (`id`, `number`, `combo_id`, `client_id`, `total`, `status`, `created_at`, `updated_at`, `work_messages`) VALUES
+(4, 'COMBO-0004', 12, 8, 3000.00, 'invoiced', '2025-12-03 00:56:49', '2025-12-03 00:57:17', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `combo_quote_items`
+--
+
+CREATE TABLE `combo_quote_items` (
+  `id` int(11) NOT NULL,
+  `combo_quote_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `description` varchar(255) NOT NULL,
+  `quantity` int(11) NOT NULL,
+  `unit_price` decimal(10,2) NOT NULL,
+  `total` decimal(10,2) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `combo_quote_items`
+--
+
+INSERT INTO `combo_quote_items` (`id`, `combo_quote_id`, `product_id`, `description`, `quantity`, `unit_price`, `total`, `created_at`) VALUES
+(7, 4, 14, 'LAPTOP DELL', 1, 3000.00, 3000.00, '2025-12-03 00:56:49');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `counters`
+--
+
+CREATE TABLE `counters` (
+  `id` int(11) NOT NULL,
+  `counter_name` varchar(50) NOT NULL,
+  `counter_value` int(11) NOT NULL DEFAULT 0,
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `counters`
+--
+
+INSERT INTO `counters` (`id`, `counter_name`, `counter_value`, `updated_at`) VALUES
+(1, 'MO', 6, '2025-12-03 00:53:21'),
+(2, 'MA', 16, '2025-11-23 23:19:16'),
+(3, 'invoices', 55, '2025-12-03 00:57:17'),
+(6, 'combo_quotes', 4, '2025-12-03 00:56:49');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura Stand-in para la vista `dashboard_stats`
+-- (Véase abajo para la vista actual)
+--
+CREATE TABLE `dashboard_stats` (
+`total_products` bigint(21)
+,`total_clients` bigint(21)
+,`total_quotes` bigint(21)
+,`pending_quotes` bigint(21)
+,`low_stock_products` bigint(21)
+);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `inventory`
+--
+
+CREATE TABLE `inventory` (
+  `id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `type` enum('in','out') NOT NULL,
+  `quantity` int(11) NOT NULL,
+  `reason` text DEFAULT NULL,
+  `document_number` varchar(100) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `inventory_movements`
+--
+
+CREATE TABLE `inventory_movements` (
+  `id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `type` enum('in','out') NOT NULL COMMENT 'in=Entrada, out=Salida',
+  `quantity` int(11) NOT NULL,
+  `reason` varchar(255) DEFAULT NULL,
+  `document_number` varchar(100) DEFAULT NULL,
+  `current_stock` int(11) NOT NULL COMMENT 'Stock después del movimiento',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `invoices`
+--
+
+CREATE TABLE `invoices` (
+  `id` int(11) NOT NULL,
+  `number` varchar(20) NOT NULL,
+  `quote_id` int(11) NOT NULL,
+  `client_id` int(11) NOT NULL,
+  `subtotal` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `iva` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `total` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `work_messages` text DEFAULT NULL,
+  `notes` text DEFAULT NULL,
+  `is_combo` tinyint(1) NOT NULL DEFAULT 0,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `invoices`
+--
+
+INSERT INTO `invoices` (`id`, `number`, `quote_id`, `client_id`, `subtotal`, `iva`, `total`, `work_messages`, `notes`, `is_combo`, `created_at`) VALUES
+(64, 'FAC-0053', 22, 8, 27000.00, 0.00, 27000.00, NULL, '[{\"quote_item_id\":6,\"quote_id\":3,\"product_id\":14,\"original_quantity\":1,\"deducted_quantity\":1,\"new_quantity\":0,\"is_combo\":true}]', 0, '2025-12-03 00:53:33'),
+(66, 'FAC-0055', 4, 8, 3000.00, 0.00, 3000.00, NULL, NULL, 1, '2025-12-03 00:57:17');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura Stand-in para la vista `low_stock_products`
+-- (Véase abajo para la vista actual)
+--
+CREATE TABLE `low_stock_products` (
+`id` int(11)
+,`code` varchar(50)
+,`name` varchar(255)
+,`purchase_price` decimal(10,2)
+,`sale_price` decimal(10,2)
+,`profit_percentage` decimal(5,2)
+,`stock` int(11)
+,`min_stock` int(11)
+,`created_at` timestamp
+,`updated_at` timestamp
+);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `products`
+--
+
+CREATE TABLE `products` (
+  `id` int(11) NOT NULL,
+  `code` varchar(50) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `purchase_price` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `sale_price` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `profit_percentage` decimal(5,2) NOT NULL DEFAULT 0.00,
+  `stock` int(11) NOT NULL DEFAULT 0,
+  `min_stock` int(11) NOT NULL DEFAULT 5,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `products`
+--
+
+INSERT INTO `products` (`id`, `code`, `name`, `purchase_price`, `sale_price`, `profit_percentage`, `stock`, `min_stock`, `created_at`, `updated_at`) VALUES
+(14, '82338927', 'LAPTOP DELL', 1500.00, 3000.00, 100.00, 0, 0, '2025-12-03 00:47:50', '2025-12-03 00:57:17');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `quotes`
+--
+
+CREATE TABLE `quotes` (
+  `id` int(11) NOT NULL,
+  `number` varchar(20) NOT NULL,
+  `type` enum('MO','MA') NOT NULL,
+  `client_id` int(11) NOT NULL,
+  `total` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `status` enum('pending','invoiced') DEFAULT 'pending',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `work_messages` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`work_messages`))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `quotes`
+--
+
+INSERT INTO `quotes` (`id`, `number`, `type`, `client_id`, `total`, `status`, `created_at`, `updated_at`, `work_messages`) VALUES
+(22, 'MO-0006', 'MO', 8, 27000.00, 'invoiced', '2025-12-03 00:53:21', '2025-12-03 00:53:33', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura Stand-in para la vista `quotes_with_client`
+-- (Véase abajo para la vista actual)
+--
+CREATE TABLE `quotes_with_client` (
+`id` int(11)
+,`number` varchar(20)
+,`type` enum('MO','MA')
+,`client_id` int(11)
+,`total` decimal(10,2)
+,`status` enum('pending','invoiced')
+,`created_at` timestamp
+,`updated_at` timestamp
+,`client_name` varchar(201)
+,`client_phone` varchar(20)
+,`client_email` varchar(255)
+);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `quote_items`
+--
+
+CREATE TABLE `quote_items` (
+  `id` int(11) NOT NULL,
+  `quote_id` int(11) NOT NULL,
+  `product_id` int(11) DEFAULT NULL,
+  `description` text NOT NULL,
+  `quantity` int(11) NOT NULL DEFAULT 1,
+  `unit_price` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `total` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `added_after_invoice` tinyint(1) DEFAULT 0,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `quote_items`
+--
+
+INSERT INTO `quote_items` (`id`, `quote_id`, `product_id`, `description`, `quantity`, `unit_price`, `total`, `added_after_invoice`, `created_at`) VALUES
+(77, 22, 14, 'LAPTOP DELL', 9, 3000.00, 27000.00, 0, '2025-12-03 00:53:21');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura Stand-in para la vista `v_all_pending_quotes`
+-- (Véase abajo para la vista actual)
+--
+CREATE TABLE `v_all_pending_quotes` (
+`id` int(11)
+,`number` varchar(20)
+,`quote_type` varchar(6)
+,`subtype` varchar(5)
+,`client_id` int(11)
+,`client_name` varchar(201)
+,`client_nit` int(11)
+,`total` decimal(10,2)
+,`status` varchar(8)
+,`created_at` timestamp
+);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura Stand-in para la vista `v_combo_quotes_pending`
+-- (Véase abajo para la vista actual)
+--
+CREATE TABLE `v_combo_quotes_pending` (
+`id` int(11)
+,`number` varchar(20)
+,`combo_id` int(11)
+,`combo_name` varchar(255)
+,`camera_count` int(11)
+,`client_id` int(11)
+,`client_name` varchar(201)
+,`client_nit` int(11)
+,`client_phone` varchar(20)
+,`client_email` varchar(255)
+,`total` decimal(10,2)
+,`status` enum('pending','invoiced')
+,`created_at` timestamp
+,`items_count` bigint(21)
+);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura para la vista `dashboard_stats`
+--
+DROP TABLE IF EXISTS `dashboard_stats`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `dashboard_stats`  AS SELECT (select count(0) from `products`) AS `total_products`, (select count(0) from `clients`) AS `total_clients`, (select count(0) from `quotes`) AS `total_quotes`, (select count(0) from `quotes` where `quotes`.`status` = 'pending') AS `pending_quotes`, (select count(0) from `products` where `products`.`stock` < `products`.`min_stock`) AS `low_stock_products` ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura para la vista `low_stock_products`
+--
+DROP TABLE IF EXISTS `low_stock_products`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `low_stock_products`  AS SELECT `products`.`id` AS `id`, `products`.`code` AS `code`, `products`.`name` AS `name`, `products`.`purchase_price` AS `purchase_price`, `products`.`sale_price` AS `sale_price`, `products`.`profit_percentage` AS `profit_percentage`, `products`.`stock` AS `stock`, `products`.`min_stock` AS `min_stock`, `products`.`created_at` AS `created_at`, `products`.`updated_at` AS `updated_at` FROM `products` WHERE `products`.`stock` < `products`.`min_stock` ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura para la vista `quotes_with_client`
+--
+DROP TABLE IF EXISTS `quotes_with_client`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `quotes_with_client`  AS SELECT `q`.`id` AS `id`, `q`.`number` AS `number`, `q`.`type` AS `type`, `q`.`client_id` AS `client_id`, `q`.`total` AS `total`, `q`.`status` AS `status`, `q`.`created_at` AS `created_at`, `q`.`updated_at` AS `updated_at`, concat(`c`.`name`,' ',`c`.`last_name`) AS `client_name`, `c`.`phone` AS `client_phone`, `c`.`email` AS `client_email` FROM (`quotes` `q` join `clients` `c` on(`q`.`client_id` = `c`.`id`)) ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura para la vista `v_all_pending_quotes`
+--
+DROP TABLE IF EXISTS `v_all_pending_quotes`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_all_pending_quotes`  AS SELECT `q`.`id` AS `id`, `q`.`number` AS `number`, 'normal' AS `quote_type`, `q`.`type` AS `subtype`, `q`.`client_id` AS `client_id`, concat(`c`.`name`,' ',ifnull(`c`.`last_name`,'')) AS `client_name`, `c`.`nit` AS `client_nit`, `q`.`total` AS `total`, `q`.`status` AS `status`, `q`.`created_at` AS `created_at` FROM (`quotes` `q` join `clients` `c` on(`q`.`client_id` = `c`.`id`)) WHERE `q`.`status` = 'pending'union all select `cq`.`id` AS `id`,`cq`.`number` AS `number`,'combo' AS `quote_type`,'COMBO' AS `subtype`,`cq`.`client_id` AS `client_id`,concat(`c`.`name`,' ',ifnull(`c`.`last_name`,'')) AS `client_name`,`c`.`nit` AS `client_nit`,`cq`.`total` AS `total`,`cq`.`status` AS `status`,`cq`.`created_at` AS `created_at` from (`combo_quotes` `cq` join `clients` `c` on(`cq`.`client_id` = `c`.`id`)) where `cq`.`status` = 'pending' order by `created_at` desc  ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura para la vista `v_combo_quotes_pending`
+--
+DROP TABLE IF EXISTS `v_combo_quotes_pending`;
+
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_combo_quotes_pending`  AS SELECT `cq`.`id` AS `id`, `cq`.`number` AS `number`, `cq`.`combo_id` AS `combo_id`, `cb`.`name` AS `combo_name`, `cb`.`camera_count` AS `camera_count`, `cq`.`client_id` AS `client_id`, concat(`c`.`name`,' ',ifnull(`c`.`last_name`,'')) AS `client_name`, `c`.`nit` AS `client_nit`, `c`.`phone` AS `client_phone`, `c`.`email` AS `client_email`, `cq`.`total` AS `total`, `cq`.`status` AS `status`, `cq`.`created_at` AS `created_at`, (select count(0) from `combo_quote_items` where `combo_quote_items`.`combo_quote_id` = `cq`.`id`) AS `items_count` FROM ((`combo_quotes` `cq` join `combos` `cb` on(`cq`.`combo_id` = `cb`.`id`)) join `clients` `c` on(`cq`.`client_id` = `c`.`id`)) WHERE `cq`.`status` = 'pending' ORDER BY `cq`.`created_at` DESC ;
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `clients`
+--
+ALTER TABLE `clients`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idx_name` (`name`,`last_name`),
+  ADD KEY `idx_email` (`email`);
+
+--
+-- Indices de la tabla `combos`
+--
+ALTER TABLE `combos`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idx_camera_count` (`camera_count`);
+
+--
+-- Indices de la tabla `combo_products`
+--
+ALTER TABLE `combo_products`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idx_combo` (`combo_id`),
+  ADD KEY `idx_product` (`product_id`);
+
+--
+-- Indices de la tabla `combo_quotes`
+--
+ALTER TABLE `combo_quotes`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `number` (`number`),
+  ADD KEY `combo_id` (`combo_id`),
+  ADD KEY `client_id` (`client_id`),
+  ADD KEY `idx_status` (`status`),
+  ADD KEY `idx_created_at` (`created_at`);
+
+--
+-- Indices de la tabla `combo_quote_items`
+--
+ALTER TABLE `combo_quote_items`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `product_id` (`product_id`),
+  ADD KEY `idx_combo_quote` (`combo_quote_id`);
+
+--
+-- Indices de la tabla `counters`
+--
+ALTER TABLE `counters`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `counter_name` (`counter_name`);
+
+--
+-- Indices de la tabla `inventory`
+--
+ALTER TABLE `inventory`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idx_product` (`product_id`),
+  ADD KEY `idx_type` (`type`),
+  ADD KEY `idx_date` (`created_at`);
+
+--
+-- Indices de la tabla `inventory_movements`
+--
+ALTER TABLE `inventory_movements`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idx_product_id` (`product_id`),
+  ADD KEY `idx_type` (`type`),
+  ADD KEY `idx_created_at` (`created_at`);
+
+--
+-- Indices de la tabla `invoices`
+--
+ALTER TABLE `invoices`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `number` (`number`),
+  ADD KEY `idx_number` (`number`),
+  ADD KEY `idx_quote` (`quote_id`),
+  ADD KEY `idx_client` (`client_id`),
+  ADD KEY `idx_is_combo` (`is_combo`);
+
+--
+-- Indices de la tabla `products`
+--
+ALTER TABLE `products`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `code` (`code`),
+  ADD KEY `idx_code` (`code`),
+  ADD KEY `idx_stock` (`stock`);
+
+--
+-- Indices de la tabla `quotes`
+--
+ALTER TABLE `quotes`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `number` (`number`),
+  ADD KEY `idx_number` (`number`),
+  ADD KEY `idx_client` (`client_id`),
+  ADD KEY `idx_status` (`status`);
+
+--
+-- Indices de la tabla `quote_items`
+--
+ALTER TABLE `quote_items`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idx_quote` (`quote_id`),
+  ADD KEY `idx_product` (`product_id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `clients`
+--
+ALTER TABLE `clients`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT de la tabla `combos`
+--
+ALTER TABLE `combos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
+-- AUTO_INCREMENT de la tabla `combo_products`
+--
+ALTER TABLE `combo_products`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+
+--
+-- AUTO_INCREMENT de la tabla `combo_quotes`
+--
+ALTER TABLE `combo_quotes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT de la tabla `combo_quote_items`
+--
+ALTER TABLE `combo_quote_items`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT de la tabla `counters`
+--
+ALTER TABLE `counters`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
+-- AUTO_INCREMENT de la tabla `inventory`
+--
+ALTER TABLE `inventory`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `inventory_movements`
+--
+ALTER TABLE `inventory_movements`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
+-- AUTO_INCREMENT de la tabla `invoices`
+--
+ALTER TABLE `invoices`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+
+--
+-- AUTO_INCREMENT de la tabla `products`
+--
+ALTER TABLE `products`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
+-- AUTO_INCREMENT de la tabla `quotes`
+--
+ALTER TABLE `quotes`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
+--
+-- AUTO_INCREMENT de la tabla `quote_items`
+--
+ALTER TABLE `quote_items`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `combo_products`
+--
+ALTER TABLE `combo_products`
+  ADD CONSTRAINT `combo_products_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `combo_products_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE;
+
+--
+-- Filtros para la tabla `combo_quotes`
+--
+ALTER TABLE `combo_quotes`
+  ADD CONSTRAINT `combo_quotes_ibfk_1` FOREIGN KEY (`combo_id`) REFERENCES `combos` (`id`),
+  ADD CONSTRAINT `combo_quotes_ibfk_2` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`);
+
+--
+-- Filtros para la tabla `combo_quote_items`
+--
+ALTER TABLE `combo_quote_items`
+  ADD CONSTRAINT `combo_quote_items_ibfk_1` FOREIGN KEY (`combo_quote_id`) REFERENCES `combo_quotes` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `combo_quote_items_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`);
+
+--
+-- Filtros para la tabla `inventory`
+--
+ALTER TABLE `inventory`
+  ADD CONSTRAINT `inventory_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`);
+
+--
+-- Filtros para la tabla `inventory_movements`
+--
+ALTER TABLE `inventory_movements`
+  ADD CONSTRAINT `inventory_movements_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE CASCADE;
+
+--
+-- Filtros para la tabla `invoices`
+--
+ALTER TABLE `invoices`
+  ADD CONSTRAINT `invoices_ibfk_2` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`);
+
+--
+-- Filtros para la tabla `quotes`
+--
+ALTER TABLE `quotes`
+  ADD CONSTRAINT `quotes_ibfk_1` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`);
+
+--
+-- Filtros para la tabla `quote_items`
+--
+ALTER TABLE `quote_items`
+  ADD CONSTRAINT `quote_items_ibfk_1` FOREIGN KEY (`quote_id`) REFERENCES `quotes` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `quote_items_ibfk_2` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE SET NULL;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
