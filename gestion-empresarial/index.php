@@ -469,12 +469,7 @@ table.dataTable tbody td {
             <span class="navbar-text me-3 fs-4">
                 <i class="bi bi-calendar"></i> <?php echo date('d/m/Y H:i'); ?>
             </span>
-            <a href="api/Consulta.php">
-                <img src="assets/CONSULTA.png" alt="Imagen de Consulta" width="60">
-            </a>
-            <a href="api/herramientas.php" class="ms-2">
-                <img src="assets/Herramientas.png" alt="Imagen de Herramientas" width="60">
-            </a>
+           
         </li>
     </ul>
 </div>
